@@ -1,0 +1,112 @@
+header.container-fluid
+	.row
+		small
+			p.visible-xs Extra small
+			p.visible-sm Small
+			p.visible-md Medium
+			p.visible-lg Large
+	.row
+		.col-lg-6.col-md-6.col-sm-6.col-xs-12
+			a.logo(href='http://www.maltebrun.com/')
+		.col-lg-6.col-md-6.col-sm-6.col-xs-12
+			.row
+				.col-sm-6.col-xs-12
+					a(href='http://www.maltebrun.com/contact-us/', title='Request a Quote!') contact@maltebrun.com
+				.col-sm-6.col-xs-12
+					a(href='http://www.maltebrun/contact-us/') 01 46 71 42 86
+			.row
+				div currentitems
+					ul.nav.nav-pills
+						- each item in currentitems
+							- if (item.active)
+								li.active
+									a(href="#{item.url}") #{item.title}
+										span
+										br
+										small #{item.subtitle}
+							- else
+								li
+									a(href="#{item.url}") #{item.title}
+										span
+										br
+										small #{item.subtitle}
+			.row
+				div headitems
+					ul.nav.nav-pills
+						- each item in headitems
+							- if (item.active)
+								li.active
+									a(href="#{item.url}") #{item.title}
+										br
+										small #{item.subtitle}
+							- else
+								li
+									a(href="#{item.url}") #{item.title}
+										br
+										small #{item.subtitle}
+			.row
+				div childitems
+					ul.nav.nav-pills
+						- each item in childitems
+							- if (item.active)
+								li.active
+									a(href="#{item.url}") #{item.title}
+										span
+										br
+										small #{item.subtitle}
+							- else
+								li
+									a(href="#{item.url}") #{item.title}
+										span
+										br
+										small #{item.subtitle}
+			.row
+				div fatheritems
+					ul.nav.nav-pills
+						- each item in fatheritems
+							- if (item.active)
+								li.active
+									a(href="#{item.url}") #{item.title}
+										span
+										br
+										small #{item.subtitle}
+							- else
+								li
+									a(href="#{item.url}") #{item.title}
+										span
+										br
+										small #{item.subtitle}
+		.col-xs-12
+			.row
+				div currentitems (navbar)
+					div.navbar.navbar-default
+						div.navbar-header
+							button.navbar-toggle(type="button", data-toggle="collapse", data-target="#hamburger")
+								span.sr-only Toggle navigation
+								span.icon-bar
+								span.icon-bar
+								span.icon-bar
+							a.navbar-brand(href="#") MALTE BRUN
+						div.collapse.navbar-collapse#hamburger
+							ul.nav.navbar-nav
+								- each item in currentitems
+									- if (item.dropdown)
+										li.dropdown(class=item.active?"active":"")
+											a.dropdown-toggle(data-toggle="dropdown", href="#{item.url}") #{item.title}
+												span.caret
+												span
+												br
+												small #{item.subtitle}
+											ul.dropdown-menu
+												- each subitem in item.subitems
+													li
+														a(href="#{subitem.url}") #{subitem.title}
+															span
+															br
+															small #{subitem.subtitle}
+									- else
+										li(class=item.active?"active":"")
+											a(href="#{item.url}") #{item.title}
+												span
+												br
+												small #{item.subtitle}

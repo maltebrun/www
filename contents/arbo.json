@@ -1,0 +1,33 @@
+{
+	"name": "arborescence",
+	"version": "0.0.1",
+	"values": [
+		{"tree": [1],			"show": true,	"dropdown": false,	"name": "home",				"route": "",				"title": "Accueil",					"subtitle": "Bienvenue...",					"jade": "home",				"contents": "home.json"				},
+		{"tree": [1, 1],		"show": true,	"dropdown": true,	"name": "data",				"route": "data",			"title": "Données",					"subtitle": "A télécharger librement",		"jade": "data",				"contents": "data.json"				},
+		{"tree": [1, 2],		"show": true,	"dropdown": true,	"name": "domain",			"route": "domain",			"title": "Secteurs",				"subtitle": "Dans quoi travaillez-vous ?",	"jade": "domain",			"contents": "domain.json"			},
+		{"tree": [1, 3],		"show": true,	"dropdown": false,	"name": "analytic",			"route": "analytic",		"title": "Analyses",				"subtitle": "Comprendre et prévoir",		"jade": "analytic",			"contents": "analytic.json"			},
+		{"tree": [1, 4],		"show": true,	"dropdown": false,	"name": "news",				"route": "news",			"title": "Actualités",				"subtitle": "Les nouvelles fraiches",		"jade": "news",				"contents": "news.json"				},
+		{"tree": [1, 5],		"show": true,	"dropdown": true,	"name": "companie",			"route": "companie",		"title": "La société",				"subtitle": "Pour mieux nous connaitre",	"jade": "companie",			"contents": "companie.json"			},
+		{"tree": [1, 1, 1],		"show": true,	"dropdown": false,	"name": "ilotsmb",			"route": "ilotsmb",			"title": "La base ilots",			"subtitle": "La base de référence",			"jade": "ilotsmb",			"contents": "ilotsmb.json"			},
+		{"tree": [1, 1, 2],		"show": true,	"dropdown": false,	"name": "gsagss",			"route": "gsagss",			"title": "Les grandes surfaces",	"subtitle": "Alimentaires et autres",		"jade": "gsagss",			"contents": "gsagss.json"			},
+		{"tree": [1, 1, 3],		"show": true,	"dropdown": false,	"name": "catalog",			"route": "catalog",			"title": "Catalogue",				"subtitle": "Toutes les autres données",	"jade": "catalog",			"contents": "catalog.json"			},
+		{"tree": [1, 2, 1],		"show": true,	"dropdown": false,	"name": "science",			"route": "science",			"title": "Sciences",				"subtitle": "et recherche",					"jade": "science",			"contents": "science.json"			},
+		{"tree": [1, 2, 2],		"show": true,	"dropdown": false,	"name": "marketing",		"route": "marketing",		"title": "Marketing",				"subtitle": "et publicité",					"jade": "marketing",		"contents": "marketing.json"		},
+		{"tree": [1, 2, 3],		"show": true,	"dropdown": false,	"name": "sante",			"route": "sante",			"title": "Santé",					"subtitle": "Médecine et pharmacie",		"jade": "sante",			"contents": "sante.json"			},
+		{"tree": [1, 2, 4],		"show": true,	"dropdown": false,	"name": "social",			"route": "social",			"title": "Social",					"subtitle": "et démographie",				"jade": "social",			"contents": "social.json"			},
+		{"tree": [1, 2, 5],		"show": true,	"dropdown": false,	"name": "media",			"route": "media",			"title": "Médias",					"subtitle": "Data journalisme",				"jade": "media",			"contents": "media.json"			},
+		{"tree": [1, 2, 6],		"show": true,	"dropdown": false,	"name": "public",			"route": "public",			"title": "Service public",			"subtitle": "",								"jade": "public",			"contents": "public.json"			},
+		{"tree": [1, 2, 7],		"show": true,	"dropdown": false,	"name": "distribution",		"route": "distribution",	"title": "Distribution",			"subtitle": "",								"jade": "distribution",		"contents": "distribution.json"		},
+		{"tree": [1, 2, 8],		"show": true,	"dropdown": false,	"name": "transport",		"route": "transport",		"title": "Transport",				"subtitle": "",								"jade": "transport",		"contents": "transport.json"		},
+		{"tree": [1, 2, 9],		"show": true,	"dropdown": false,	"name": "energie",			"route": "energie",			"title": "Energie",					"subtitle": "",								"jade": "energie",			"contents": "energie.json"			},
+		{"tree": [1, 2, 10],	"show": false,	"dropdown": false,	"name": "finance",			"route": "finance",			"title": "Finance",					"subtitle": "",								"jade": "finance",			"contents": "finance.json"			},
+		{"tree": [1, 2, 11],	"show": true,	"dropdown": false,	"name": "education",		"route": "education",		"title": "Education",				"subtitle": "",								"jade": "education",		"contents": "education.json"		},
+		{"tree": [1, 2, 12],	"show": true,	"dropdown": false,	"name": "culture",			"route": "culture",			"title": "Culture",					"subtitle": "",								"jade": "culture",			"contents": "culture.json"			},
+		{"tree": [1, 2, 13],	"show": true,	"dropdown": false,	"name": "tourisme",			"route": "tourisme",		"title": "Tourisme",				"subtitle": "",								"jade": "tourisme",			"contents": "tourisme.json"			},
+		{"tree": [1, 2, 14],	"show": true,	"dropdown": false,	"name": "agriculture",		"route": "agriculture",		"title": "Agriculture",				"subtitle": "",								"jade": "agriculture",		"contents": "agriculture.json"		},
+		{"tree": [1, 5, 1],		"show": true,	"dropdown": false,	"name": "origin",			"route": "origin",			"title": "Création",				"subtitle": "D'où venons-nous ?",			"jade": "origin",			"contents": "origin.json"			},
+		{"tree": [1, 5, 2],		"show": true,	"dropdown": false,	"name": "vision",			"route": "vision",			"title": "Notre vision",			"subtitle": "et nos convictions",			"jade": "vision",			"contents": "vision.json"			},
+		{"tree": [1, 5, 3],		"show": true,	"dropdown": false,	"name": "clients",			"route": "clients",			"title": "Nos clients",				"subtitle": "Témoignages",					"jade": "clients",			"contents": "clients.json"			},
+		{"tree": [1, 5, 4],		"show": true,	"dropdown": false,	"name": "name",				"route": "name",			"title": "Le nom",					"subtitle": "Qui est MalteBrun ?",			"jade": "name",				"contents": "name.json"				}
+	]
+}

@@ -1,0 +1,17 @@
+{
+	"development": {
+		"port": 8088,
+		"pretty": true,
+		"view_engine": "jade"
+	},
+	"integration": {
+		"port": 80,
+		"pretty": false,
+		"view_engine": "jade"
+	},
+	"production": {
+		"port": 80,
+		"pretty": false,
+		"view_engine": "jade"
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"environments": {
+		"development": {
+			"shortname": "dev",
+			"purpose": ""
+			},
+		"integration": {
+			"shortname": "int",
+			"purpose": ""
+			},
+		"production": {
+			"shortname": "prod",
+			"purpose": ""
+			}
+	},
+	"hosts": {
+		"MB001": {
+			"name": "Portable ASUS G75V",
+			"processor": "",
+			"OS": "Windows Seven",
+			"environment": "development"
+		},
+		"MB002": {
+			"name": "vds2412",
+			"processor": "",
+			"OS": "Linux Debian",
+			"environment": "production"
+		}
+	},
+	"host": "MB001"
+}

@@ -1,0 +1,8 @@
+{
+    "name": "content definitions",
+    "version": "0.0.1",
+    "values": {
+        "title": {"type": "libel", "storage": "inline", "langage": "text", "source": "", "data": "MalteBrun"},
+        "copyright": {"type": "libel", "storage": "inline", "langage": "text", "source": "", "data": "copyright MalteBrun 2014"}
+    }
+}
