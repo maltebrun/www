@@ -1,16 +1,22 @@
 {
-	"development": {
+	"DEV": {
+		"purpose": "development",
 		"port": 8088,
+		"host": "*",
 		"pretty": true,
 		"view_engine": "jade"
 	},
-	"integration": {
-		"port": 80,
+	"INT": {
+		"purpose": "integration",
+		"port": 1664,
+		"host": "localhost",
 		"pretty": false,
 		"view_engine": "jade"
 	},
-	"production": {
-		"port": 80,
+	"PROD": {
+		"purpose": "production",
+		"port": 1664,
+		"host": "localhost",
 		"pretty": false,
 		"view_engine": "jade"
 	}
