@@ -2,7 +2,7 @@
 	"DEV": {
 		"purpose": "development",
 		"port": 8088,
-		"host": "*",
+		"host": "localhost",
 		"pretty": true,
 		"view_engine": "jade"
 	},

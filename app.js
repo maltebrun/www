@@ -1,6 +1,7 @@
 var
 	merge = require('merge'),
-	param = merge.recursive(false, require('./param.js'), {'dirname': __dirname}),
+	env = process.env.MALTEBRUN_ENV ? process.env.MALTEBRUN_ENV : 'DEV',
+	param = merge.recursive(false, {'env': env}, {'dirname': __dirname}),
 
 	server = require('./lib/server')(param),
 	db = require('./lib/db')(param),
@@ -10,5 +11,5 @@ var
 require('./lib/router')(server, handler);
 
 // All set, start listening!
-server.listen(server.get('port'));
-console.log("Express server listening on port %d in %s mode", server.get('port'), server.get('env'));
+server.listen(server.get('port'), server.get('host'));
+console.log("Express server listening on host %s on port %d in %s mode", server.get('host'), server.get('port'), server.get('env'));
