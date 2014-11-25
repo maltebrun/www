@@ -12,4 +12,4 @@ require('./lib/router')(server, handler);
 
 // All set, start listening!
 server.listen(server.get('port'), server.get('host'));
-console.log("Express server listening on host %s on port %d in %s mode", server.get('host'), server.get('port'), server.get('env'));
+console.log("Express server listening on host %s on port %d in %s mode, base directory is : %s", server.get('host'), server.get('port'), server.get('env'), server.get('dirname'));
