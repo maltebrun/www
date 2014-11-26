@@ -1,10 +1,11 @@
 header.container-fluid
-	.row
-		small
-			p.visible-xs Extra small
-			p.visible-sm Small
-			p.visible-md Medium
-			p.visible-lg Large
+	- if (development)
+		.row
+			small
+				p.visible-xs Extra small
+				p.visible-sm Small
+				p.visible-md Medium
+				p.visible-lg Large
 	.row
 		.col-lg-6.col-md-6.col-sm-6.col-xs-12
 			a.logo(href='http://www.maltebrun.com/')
@@ -76,6 +77,52 @@ header.container-fluid
 										span
 										br
 										small #{item.subtitle}
+			.row
+				div breadcrumb
+					ul.nav.nav-pills
+						- each item in breadcrumb
+							- if (item.active)
+								li.active
+									a(href="#{item.url}") #{item.title}
+										span
+										br
+										small #{item.subtitle}
+							- else
+								li
+									a(href="#{item.url}") #{item.title}
+										span
+										br
+										small #{item.subtitle}
+		.col-xs-12
+			div.navbar
+				div.navbar-inner
+					div.container
+						button.btn.btn-navbar(data-target=".nav-collapse" data-toggle="collapse" type="button")
+							span.icon-bar
+							span.icon-bar
+							span.icon-bar
+						a.brand(href="#") Nom de mon site
+						nav.nav-collapse(role="navigation")
+							ul.nav
+								li
+									a(href="#") Lien #1
+								li.divider-vertical
+								li.dropdown
+									a(data-toggle="dropdown" class="dropdown-toggle" href="#") Lien #2
+										b.caret
+									ul.dropdown-menu
+										li
+											a(href="#") Lien #2-a
+										li
+											a(href="#") Lien #2-b
+										li
+											a(href="#") Lien #2-c
+								li.divider-vertical
+								li
+									a(href="#") Lien #3
+								li.divider-vertical
+								li
+									a(href="#") Lien #4
 		.col-xs-12
 			.row
 				div currentitems (navbar)

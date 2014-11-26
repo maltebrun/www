@@ -4,6 +4,7 @@
 		"port": 8088,
 		"host": "localhost",
 		"pretty": true,
+		"development": true,
 		"view_engine": "jade"
 	},
 	"INT": {
@@ -11,6 +12,7 @@
 		"port": 1664,
 		"host": "localhost",
 		"pretty": false,
+		"development": false,
 		"view_engine": "jade"
 	},
 	"PROD": {
@@ -18,6 +20,7 @@
 		"port": 1664,
 		"host": "localhost",
 		"pretty": false,
+		"development": false,
 		"view_engine": "jade"
 	}
 }
