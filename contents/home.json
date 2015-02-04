@@ -1,6 +1,19 @@
 {
-	"name": "generic definitions",
+	"name": "home definitions",
 	"version": "0.0.1",
-	"values": {
+	"values":  {
+		"hangs":		{"type": "libel", "storage": "file", "language": "text", "source": "hangs.json", "data": ""				},
+		"article_1":	{"type": "article", "storage": "file", "language": "text", "source": "article_1.json", "data": ""		},
+		"thumbnails":	{"type": "thumbnails", "storage": "inline", "language": "json", "source": "", "data":
+							[
+								{"title": "Données",		"url": "", "link": "En savoir plus...", "icon": "DAF Tipper Container Truck.png", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae neque non felis dignissim sagittis ac vehicula est. Quisque nec enim ut est convallis ullamcorper. Etiam eleifend mauris arcu, vitae placerat sem sollicitudin in."},
+								{"title": "Open data",		"url": "", "link": "En savoir plus...", "icon": "Ford Zodiac MkIV.png", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae neque non felis dignissim sagittis ac vehicula est. Quisque nec enim ut est convallis ullamcorper. Etiam eleifend mauris arcu, vitae placerat sem sollicitudin in."},
+								{"title": "Recueil",		"url": "", "link": "En savoir plus...", "icon": "Hatra Tractor Shovel.png", "text": "Maecenas porta id quam eget pulvinar. Vestibulum tempor neque in turpis aliquam, nec sollicitudin velit pellentesque. Proin eleifend sagittis placerat. Nulla sit amet urna in sem luctus molestie et nec lectus. Aliquam volutpat mi sed elementum varius."},
+								{"title": "Analyses",		"url": "", "link": "En savoir plus...", "icon": "Jumbo Crane.png", "text": "Sed interdum pretium dui, sed pulvinar metus tristique et. Aliquam sed dui mi. Nulla est orci, fringilla ac lacus sit amet, sagittis lacinia felis. Nulla sit amet urna in sem luctus molestie et nec lectus. Aliquam volutpat mi sed elementum varius."},
+								{"title": "Geo",			"url": "", "link": "En savoir plus...", "icon": "Safari Land Rover.png", "text": "Aliquam porttitor, lectus sit amet scelerisque pharetra, magna turpis scelerisque nisi, ut vulputate mi nisi vitae sem. Donec lobortis tellus nec lacus dignissim vestibulum. Cras semper eget dolor ut luctus. Duis accumsan mattis nisl, ac commodo arcu."},
+								{"title": "Traitements",	"url": "", "link": "En savoir plus...", "icon": "Mercedes Benz Ambulance.png", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae neque non felis dignissim sagittis ac vehicula est. Quisque nec enim ut est convallis ullamcorper. Etiam eleifend mauris arcu, vitae placerat sem sollicitudin in. Nulla sit amet urna in sem luctus molestie et nec lectus."}
+							]
+		},
+		"news":			{"type": "news", "storage": "directory", "language": "json", "source": "news", "data": ""				}
 	}
 }

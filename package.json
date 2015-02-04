@@ -26,6 +26,8 @@
     "stringify-object": "^1.0.0",
     "serve-favicon": "^2.1.4",
     "less": "^1.7.5",
-    "chalk": "^0.5.1"
+    "chalk": "^0.5.1",
+    "jsonfile": "^2.0.0",
+    "emailjs": "^0.3.12"
   }
 }

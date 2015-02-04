@@ -2,7 +2,9 @@
     "name": "content definitions",
     "version": "0.0.1",
     "values": {
-        "title": {"type": "libel", "storage": "inline", "langage": "text", "source": "", "data": "MalteBrun"},
-        "copyright": {"type": "libel", "storage": "inline", "langage": "text", "source": "", "data": "copyright MalteBrun 2014"}
+        "title": {"type": "libel", "storage": "inline", "language": "text", "source": "", "data": "MalteBrun"},
+        "copyright": {"type": "libel", "storage": "inline", "language": "text", "source": "", "data": "Site conçu et réalisé par MalteBrun - 2014"},
+        "conception": {"type": "libel", "storage": "inline", "language": "text", "source": "", "data": "© MalteBrun - Le contenu du site maltebrun.com est soumis à la protection de la propriété intellectuelle."},
+        "tools": {"type": "libel", "storage": "inline", "language": "text", "source": "", "data": "Utilise node.js, express.js, JSON, bootstrap, less et jade"}
     }
 }

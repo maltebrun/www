@@ -1,4 +1,5 @@
 var
+	path = require('path'),
 	merge = require('merge'),
 	env = process.env.MALTEBRUN_ENV ? process.env.MALTEBRUN_ENV : 'DEV',
 	param = merge.recursive(false, {'env': env}, {'dirname': __dirname}),
@@ -6,6 +7,17 @@ var
 	server = require('./lib/server')(param),
 	db = require('./lib/db')(param),
 	handler = require('./lib/handler')(db);
+
+	fs = require('fs'),
+	logger = require('morgan');
+
+if (server.get('env') === 'PROD') {
+	// create a write stream (in append mode)
+	var accessLogStream = fs.createWriteStream(path.join(server.get('dirname'), 'log', 'morgan.log'), {flags: 'a'});
+	server.use(logger('combined', {stream: accessLogStream}));
+} else {
+	server.use(logger('dev'));
+};
 
 // Setup routes
 require('./lib/router')(server, handler);

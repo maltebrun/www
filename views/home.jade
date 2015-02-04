@@ -5,23 +5,69 @@ block header
 	//include menubar
 	//include breadcrumb
 block main
+	iframe#hiddenFrame(name="hiddenFrame" style="position:absolute; top:-1px; left:-1px; width:1px; height:1px;")
 	main.container
-		include breadcrumb
+		.jumbotron
+			h3 #{hangs.text}
 		.row
-			.col-xs-12 Accroche
-		.row
-			.col-md-8 Second niveau avec 8 colonnes
-				.row
-					.col-xs-12.col-sm-4.col-sm-4.col-lg-4 Theme 1
-					.col-xs-12.col-sm-4.col-sm-4.col-lg-4 Theme 2
-					.col-xs-12.col-sm-4.col-sm-4.col-lg-4 Theme 3
-			.col-md-4 Second niveau avec 4 colonnes
-				.row
-					.col-lg-12 News 1
-					.col-lg-12 News 2
-					.col-lg-12 News 3
-					.col-lg-12 News 4
-		//aside.col-xs-6.col-sm-3 Actualités
+			.col-xs-12.col-sm-10.col-md-10.col-lg-10
+				.row.thumbnails
+					- each item in thumbnails
+						.col-xs-12.col-sm-4.col-md-4.col-lg-4
+							.thumbnail.activitie
+								.row
+									.hidden-xs.col-sm-2.col-md-2.col-lg-2
+										img(src="img/" + item.icon)
+									.col-xs-12.col-sm-10.col-md-10.col-lg-10
+										.caption
+											h4 #{item.title}
+											p.message #{item.text}
+									.col-xs-12.col-sm-12.col-md-12.col-lg-12.right-readmore
+										span
+											a(href=item.url) #{item.link}
+			aside.hidden-xs.col-sm-2.col-md-2.col-lg-2.widgets
+				.contact
+					span.head Nous contacter
+					.list
+						.item
+							.contact-form
+								form#contact-form(action="/" method="post" target="hiddenFrame" onload="alert('quoiquinia ?')")
+									.form-group
+										label(for="Form_A_Field_1") Civilité :
+										select.form-control#Form_A_Field_1(name="Form_A_Field_1" required=true)
+											option(value="1" selected)
+											option(value="2") M
+											option(value="3") Mme
+										label(for="Form_A_Field_2") Nom :
+										input.form-control#Form_A_Field_2(name="Form_A_Field_2" type="text" placeholder="Nom")
+										label(for="Form_A_Field_3") Prénom :
+										input.form-control#Form_A_Field_3(name="Form_A_Field_3" type="text" placeholder="Prénom")
+										label(for="Form_A_Field_4") Société :
+										input.form-control#Form_A_Field_4(name="Form_A_Field_4" type="text" placeholder="Société")
+										label(for="Form_A_Field_5") Adresse mail :
+										input.form-control#Form_A_Field_5(name="Form_A_Field_5" type="email" placeholder="Votre email")
+										label(for="Form_A_Field_6") Votre question :
+										textarea#Form_A_Field_6(name="Form_A_Field_6" placeholder="")
+										.checkbox
+											//-http://stackoverflow.com/questions/11817469/jade-doesnt-render-checkboxes-text
+											label(for="Form_A_Field_7")
+												input#Form_A_Field_7(name="Form_A_Field_7" type="checkbox")
+												= "Vous acceptez de recevoir nos informations mensuelles par mail"
+										//-button.btn.btn-default(onClick="(function (f) {f.submit(); f.reset(); return false;}) (document.getElementById('contact-form'))") Envoyer
+										button.btn.btn-default(onClick="submitForm()") Envoyer
+										//-button.btn.btn-default(type="submit") Envoyer
+				.news
+					span.head Actualités
+					ul.list
+						- each item in news
+							li.item
+								span.title #{item.title}
+								span.date.pull-right #{item.date} à #{item.hour}
+								.text #{item.text}
+								.link
+									a(href=item.url) #{item.link}
+				//.connect
+					span.head Se connecter
 block footer
 	footer.container
 		include copyright
