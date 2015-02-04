@@ -1,0 +1,6 @@
+cd ~
+git clone https://code.google.com/p/plv8js/
+cd plv8js
+    
+make static
+make install

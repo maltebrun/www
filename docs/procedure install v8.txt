@@ -1,0 +1,61 @@
+
+sudo apt-get install build-essential
+sudo apt-get install subversion
+
+apt-get install git
+apt-get install git-svn
+
+Pour effacer le répertoire v8 si on veut recommencer ce qui suit :
+rm -rf v8
+
+git clone git://github.com/v8/v8.git v8
+cd v8
+make dependencies
+make ia32.release werror=no
+
+Vérification :
+cd out/ia32.release/
+./d8
+d8> print("Hello World");
+Hello World
+d8> quit()
+
+./shell -e 'print("Hello World")'
+Hello World
+
+
+
+
+
+https://code.google.com/p/v8/wiki/UsingGit
+https://code.google.com/p/v8/wiki/BuildingWithGYP
+https://groups.google.com/forum/#!searchin/v8-users/splay-tree-inl.h|sort:relevance|spell:true/v8-users/pil4hb3XuhA/q7MfaKAciq8J
+http://askubuntu.com/questions/141252/is-there-a-package-for-an-executable-version-of-v8
+
+
+
+17 05 2014
+https://www.google.fr/search?q=install+plv8+windows&ie=utf-8&oe=utf-8&aq=t&rls=org.mozilla:fr:official&client=firefox-a&channel=np&source=hp&gfe_rd=cr&ei=r3p2U9LmEIrIjwfmiYD4BQ#channel=np&q=install+plv8+debian&rls=org.mozilla:fr:official
+https://github.com/fdr/plv8-static-debian
+http://stackoverflow.com/questions/10076030/how-to-install-plv8-on-windows
+http://fr.slideshare.net/lucio_grenzi/plv8-the-postgresql-web-side
+https://www.google.fr/#q=plv8.control
+https://code.google.com/p/plv8js/wiki/PLV8
+http://www.postgresql.org/docs/9.3/static/functions-aggregate.html
+http://www.linuxquestions.org/questions/debian-26/how-do-i-get-apt-get-to-completely-uninstall-a-package-237772/
+https://groups.google.com/forum/#!searchin/v8-users/splay-tree-inl.h%7Csort:relevance%7Cspell:true/v8-users/pil4hb3XuhA/q7MfaKAciq8J
+https://code.google.com/p/v8/wiki/BuildingWithGYP
+https://code.google.com/p/v8/wiki/UsingGit
+http://blog.stevenreid.co.uk/2011/06/01/v8-js-engine-standalone/
+http://askubuntu.com/questions/141252/is-there-a-package-for-an-executable-version-of-v8
+https://packages.debian.org/fr/squeeze/libv8-dev
+https://packages.debian.org/search?suite=squeeze-backports-sloppy&keywords=postgresql-9.3-plv8
+http://stackoverflow.com/questions/1802478/running-v8-javascript-engine-standalone
+https://www.google.fr/#q=debian+32+ou+64+bits+comment+savoir
+http://forum.hardware.fr/hfr/Programmation/Shell-Batch/comment-savoir-bits-sujet_96093_1.htm
+http://www.liberation.fr/#
+https://www.google.fr/#q=linux+executable
+http://fr.openclassrooms.com/forum/sujet/fichier-executable-sous-linux-73740#.U3fH3XYanFw
+http://www.commentcamarche.net/forum/affich-2652020-executable
+https://packages.debian.org/squeeze/database/
+http://en.savefrom.net/#url=http://youtube.com/watch?v=gtTI2-F6W34&utm_source=youtube.com&utm_medium=short_domains&utm_campaign=www.ssyoutube.com
