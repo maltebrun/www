@@ -1,0 +1,9 @@
+{
+	"name": "hangs",
+	"version": "0.0.1",
+	"comments": "",
+	"values":  {
+		"bidon":		"Gros bidon",
+		"text":			"Nos solutions génèrent de la valeur à partir de données non structurées et structurées : lier vos données à des processus à forte intensité cognitive - rendre les données intelligentes !"
+	}
+}

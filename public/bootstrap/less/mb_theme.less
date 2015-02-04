@@ -1,0 +1,572 @@
+// Reset
+
+ul {
+  padding-left: 0px;
+}
+
+/*! Scaffolding ============================================================================ */
+//
+// Scaffolding
+// --------------------------------------------------
+
+body {
+  padding-top: 0px;
+  color: @mb-color-text;
+  background-color: @mb-color-main-background;
+}
+
+header {
+  border-bottom: none;
+}
+
+/*! ============================================================================ */
+//
+// Mode développement
+// --------------------------------------------------
+
+.dimensions {
+  color: red;
+  .grid {
+    position: fixed;
+    z-index: 1000;
+    left: 0px;
+    top: 0px;
+  }
+  .pixels {
+    position: fixed;
+    z-index: 1000;
+    right: 0px;
+    top: 0px;
+  }
+}
+
+@sz-xs:    %("%d", (@mb-fixheader-padding-top-xs + 2 * @breadcrumb-padding-vertical + @line-height-computed + @mb-logo-lg-height + 51px));
+@sz-sm:    %("%d", (2 * @container-sm / @grid-columns) - @grid-gutter-width - 2 * (@widgets-item-padding + @widgets-item-border-width));
+@sz-md:    %("%d", (2 * @container-md / @grid-columns) - @grid-gutter-width - 2 * (@widgets-item-padding + @widgets-item-border-width));
+@sz-lg:    %("%d", (2 * @container-lg / @grid-columns) - @grid-gutter-width - 2 * (@widgets-item-padding + @widgets-item-border-width));
+@sz-output: %("%d", @mb-fixheader-padding-top-xs + 2 * @breadcrumb-padding-vertical + @line-height-computed + @mb-logo-lg-height + 51px);
+
+#container-xs:after {
+  content: @sz-xs;
+}
+#container-sm:after {
+  content: @sz-sm;
+}
+#container-md:after {
+  content: @sz-md;
+}
+#container-lg:after {
+  content: @sz-lg;
+}
+#container-output:after {
+  content: @sz-output;
+}
+
+// Footer
+
+footer {
+  margin-bottom: 120px;
+}
+
+.footer {
+  color: @mb-color-text;
+  background-color: tranparent;
+  border-top: thin solid rgb(48, 64, 60);
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0px;
+  text-align: center;
+}
+
+// Links
+
+a {
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+}
+
+.right-readmore {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  padding-right: 30px;
+  padding-bottom: 25px;
+  span {
+    float: right;
+    a {
+      color: @mb-color-link;
+      text-decoration: none;
+      &:hover {
+        color: @mb-color-link-hover;
+      }
+    }
+  }
+}
+
+// Thumbnails
+
+.thumbnail {
+  border: 1px solid @mb-color-default-border;
+  border-radius: @mb-radius-default;
+  .activitie {
+    height: @thumbnail-message-height;
+    .message {
+      text-align: justify;
+    }
+  }
+}
+
+// Widgets
+
+.widgets {
+
+  > * {
+    padding-bottom: 30px;
+  }
+
+  margin-bottom: -30px;
+  
+  ul {
+      list-style-type: none;
+  }
+
+  .head {
+    /*
+    color: @mb-color-caption;
+    background-color: transparent;
+    border-top: 2px solid @mb-color-caption;
+    */
+
+    background-color: @mb-color-logo-marron;
+    color: @mb-color-logo-sable;
+    border-top: none;//2px solid @mb-color-logo-marron;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;//2px solid @mb-color-logo-marron;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-radius: 3px;
+    text-align: center;
+
+    text-transform: uppercase;
+    display: block;
+    font-size: 100%;
+    @media (min-width: @screen-sm-min) {
+      font-size: 80%;
+    }
+    @media (min-width: @screen-md-min) {
+      font-size: 90%;
+    }
+    @media (min-width: @screen-lg-min) {
+      font-size: 120%;
+    }
+  }
+
+  .item {
+    padding: @widgets-item-padding;
+    border: @widgets-item-border-width solid @mb-color-default-border;
+    border-radius: 4px;
+    margin-top: 5px;
+    background-color: @mb-color-text-background;
+  }
+
+  .news {
+    .title {
+      background-color: @mb-color-title-background;
+      color: @mb-color-title-text;
+      border-radius: 3px 3px 0px 0px;
+      border: @widgets-item-title-padding solid @mb-color-title-background;
+      font-size: 90%;
+      display: block;
+      padding-top: 0px;
+    }
+    .date {
+      color: @mb-color-note;
+      font-size: 60%;
+      display: block;
+    }
+    .text {
+      color: @mb-color-text;
+      font-size: 70%;
+      text-align: justify;
+      display: block;
+      clear: both;
+    }
+    .link {
+      color: @mb-color-link;
+      font-size: 70%;
+      text-align: left;
+      font-style: italic;
+      display: block;
+      clear: both;
+      &:hover {
+        color: @mb-color-link-hover;
+      }
+    }
+  }
+  .form-group {
+    margin-bottom: 0px;
+  }
+  .contact-form {
+    label {
+      font-size: 70%;
+      margin-bottom: 0px;
+    }
+    textarea {
+      height: auto;
+      //width: 160px;
+      @media (min-width: @screen-sm-min) {
+        height: auto;
+        width: (2 * @container-sm / @grid-columns) - @grid-gutter-width - 2 * (@widgets-item-padding + @widgets-item-border-width);
+        min-width: (2 * @container-sm / @grid-columns) - @grid-gutter-width - 2 * (@widgets-item-padding + @widgets-item-border-width);
+        max-width: (2 * @container-sm / @grid-columns) - @grid-gutter-width - 2 * (@widgets-item-padding + @widgets-item-border-width);
+      }
+      @media (min-width: @screen-md-min) {
+        height: auto;
+        width: (2 * @container-md / @grid-columns) - @grid-gutter-width - 2 * (@widgets-item-padding + @widgets-item-border-width);
+        min-width: (2 * @container-md / @grid-columns) - @grid-gutter-width - 2 * (@widgets-item-padding + @widgets-item-border-width);
+        max-width: (2 * @container-md / @grid-columns) - @grid-gutter-width - 2 * (@widgets-item-padding + @widgets-item-border-width);
+      }
+      @media (min-width: @screen-lg-min) {
+        height: auto;
+        width: (2 * @container-lg / @grid-columns) - @grid-gutter-width - 2 * (@widgets-item-padding + @widgets-item-border-width);
+        min-width: (2 * @container-lg / @grid-columns) - @grid-gutter-width - 2 * (@widgets-item-padding + @widgets-item-border-width);
+        max-width: (2 * @container-lg / @grid-columns) - @grid-gutter-width - 2 * (@widgets-item-padding + @widgets-item-border-width);
+      }
+    }
+    .form-control {
+      font-size: 70%;
+      height: 22px;
+      padding: 2px 2px;
+    }
+    button {
+      font-size: 70%;
+      font-weight: bold;
+      padding: 4px 12px;
+    }
+  }
+}
+
+//
+// Theme MalteBrun
+// --------------------------------------------------
+
+.logo {
+  background: url(/img/logo_lg.png) 0 0 no-repeat;
+  display: block;
+  width: @mb-logo-lg-width;
+  height: @mb-logo-lg-height;
+  box-shadow: 4px 4px 8px @mb-color-gray-darker;
+}
+
+@media (min-width: @screen-sm-min) {
+  .logo {
+    background: url(/img/logo_sm.png) 0 0 no-repeat;
+    width: @mb-logo-sm-width;
+    height: @mb-logo-sm-height;
+  }
+}
+
+@media (min-width: @screen-md-min) {
+  .logo {
+    background: url(/img/logo_md.png) 0 0 no-repeat;
+    width: @mb-logo-md-width;
+    height: @mb-logo-md-height;
+  }
+}
+
+@media (min-width: @screen-lg-min) {
+  .logo {
+    background: url(/img/logo_lg.png) 0 0 no-repeat;
+    width: @mb-logo-lg-width;
+    height: @mb-logo-lg-height;
+  }
+}
+
+header .contact > div {
+  display: inline-block;
+  padding-left: 20px;
+}
+
+header .contact .mail {
+  font-style: italic;
+  font-size: 13px;
+  font-family: @font-family-serif;
+}
+
+header .contact .phone {
+  font-size: 22px;
+  font-family: @font-family-sans-serif;
+  color: @mb-color-note;
+}
+
+header .contact .mail a {
+  text-decoration: none;
+}
+
+.mb_fixheader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 1000;
+  background: none repeat scroll 0% 0% @mb-color-main-background;
+  padding-top: @mb-fixheader-padding-top-xs;
+}
+
+@media (min-width: @screen-sm-min) {
+  .mb_fixheader {
+    padding-top: @mb-fixheader-padding-top-sm;
+  }
+}
+
+@media (min-width: @screen-md-min) {
+  .mb_fixheader {
+    padding-top: @mb-fixheader-padding-top-md;
+  }
+}
+
+@media (min-width: @screen-lg-min) {
+  .mb_fixheader {
+    padding-top: @mb-fixheader-padding-top-lg;
+  }
+}
+
+.mb_underfix {
+  padding-top: @mb-fixheader-padding-top-xs + 2 * @breadcrumb-padding-vertical + @line-height-computed + @mb-logo-lg-height + 51px;
+}
+
+@media (min-width: @screen-sm-min) {
+  .mb_underfix {
+    padding-top: @mb-fixheader-padding-top-sm + 2 * @breadcrumb-padding-vertical + @line-height-computed + @mb-logo-sm-height + 51px;
+  }
+}
+
+@media (min-width: @screen-md-min) {
+  .mb_underfix {
+    padding-top: @mb-fixheader-padding-top-md + 2 * @breadcrumb-padding-vertical + @line-height-computed + @mb-logo-md-height + 51px;
+  }
+}
+
+@media (min-width: @screen-lg-min) {
+  .mb_underfix {
+    padding-top: @mb-fixheader-padding-top-lg + 2 * @breadcrumb-padding-vertical + @line-height-computed + @mb-logo-lg-height + 51px;
+  }
+}
+
+// Overrride breadcrumb
+
+.breadcrumb {
+  padding: 8px 0px;
+  margin-bottom: 0px;
+  border: none;
+  background-color: @mb-color-main-background;
+}
+
+// Overrride jumbotron
+
+.container .jumbotron {
+  padding-top: 5px;
+  background-color: @mb-color-text-background;
+  border: 1px solid @mb-color-default-border;
+  border-radius: @mb-radius-default;
+}
+
+
+// Alternate navbars
+// --------------------------------------------------
+
+// Navbar MalteBrun
+
+.navbar-maltebrun {
+
+  //background-color: @navbar-default-bg;
+  background-color: tranparent;
+  border-color: @navbar-default-border;
+
+  // ======================================================= maltebrun
+  margin-bottom: 0px;
+  @media (min-width: @grid-float-breakpoint) {
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom: thin solid @mb-color-logo-marron;
+    border-radius: 0px;
+    //background-color: @mb-color-main-background;
+    background-color: transparent;
+  }
+  // ======================================================= maltebrun
+
+  .navbar-brand {
+    color: @mb-color-link;
+    &:hover,
+    &:focus {
+      color: @mb-color-link-hover;
+      background-color: @mb-color-main-background;
+    }
+  }
+
+  .navbar-text {
+    color: @mb-color-text;
+  }
+
+  .navbar-nav {
+
+    // ======================================================= maltebrun
+    > li {
+      margin-right: 0px;
+      margin-left: 20px;
+      &:first-child {
+        margin-left: 0px;
+      }
+    }
+    // ======================================================= maltebrun
+
+    > li > a {
+
+      // ======================================================= maltebrun
+      padding: 0px 0px 5px;
+      border-bottom: 5px solid transparent;
+      // ======================================================= maltebrun
+
+      color: @mb-color-link;
+      background-color: @mb-color-main-background;
+
+      &:hover,
+      &:focus {
+        color: @mb-color-link-hover;
+
+        // ======================================================= maltebrun
+        border-bottom: 5px solid @mb-color-nav-bottombar-hover;
+        //background-color: @navbar-default-link-hover-bg;
+      }
+    }
+    > .active > a {
+      &,
+      &:hover,
+      &:focus {
+        color: @mb-color-link-hover;
+
+        // ======================================================= maltebrun
+        border-bottom: 5px solid @mb-color-nav-bottombar-active;
+        //background-color: @navbar-default-link-active-bg;
+      }
+    }
+    > .disabled > a {
+      &,
+      &:hover,
+      &:focus {
+        color: @mb-color-link-disabled;
+
+        // ======================================================= maltebrun
+        border-bottom: 5px solid transparent;
+        //background-color: @navbar-default-link-disabled-bg;
+      }
+    }
+  }
+
+  .navbar-toggle {
+    border-color: @navbar-default-toggle-border-color;
+    &:hover,
+    &:focus {
+      //background-color: @navbar-default-toggle-hover-bg;
+    }
+    .icon-bar {
+      //background-color: @navbar-default-toggle-icon-bar-bg;
+    }
+  }
+
+  .navbar-collapse,
+  .navbar-form {
+    border-color: @navbar-default-border;
+  }
+
+  // Dropdown menu items
+  .navbar-nav {
+
+    // Repositionnement ====================================== maltebrun
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    // Repositionnement ====================================== maltebrun
+
+
+    // Remove background color from open dropdown
+    > .open > a {
+      &,
+      &:hover,
+      &:focus {
+        color: @mb-color-link-hover;
+        // ======================================================= maltebrun
+        border-bottom: 5px solid transparent;
+        background-color: @mb-color-main-background;
+      }
+      .caret {
+        color: @mb-color-nav-bottombar-hover;
+      }
+    }
+
+    @media (max-width: @grid-float-breakpoint-max) {
+      // Dropdowns get custom display when collapsed
+      .open .dropdown-menu {
+        > li > a {
+          color: @navbar-default-link-color;
+          &:hover,
+          &:focus {
+            color: @navbar-default-link-hover-color;
+            // ======================================================= maltebrun
+            //background-color: @navbar-default-link-hover-bg;
+          }
+        }
+        > .active > a {
+          &,
+          &:hover,
+          &:focus {
+            color: @navbar-default-link-active-color;
+            // ======================================================= maltebrun
+            //background-color: @navbar-default-link-active-bg;
+          }
+        }
+        > .disabled > a {
+          &,
+          &:hover,
+          &:focus {
+            color: @navbar-default-link-disabled-color;
+            // ======================================================= maltebrun
+            //background-color: @navbar-default-link-disabled-bg;
+          }
+        }
+      }
+    }
+  }
+
+
+  // Links in navbars
+  //
+  // Add a class to ensure links outside the navbar nav are colored correctly.
+
+  .navbar-link {
+    color: @mb-color-link;
+    &:hover {
+      color: @mb-color-link-hover;
+    }
+  }
+
+  .btn-link {
+    color: @mb-color-link;
+    &:hover,
+    &:focus {
+      color: @mb-color-link-hover;
+    }
+    &[disabled],
+    fieldset[disabled] & {
+      &:hover,
+      &:focus {
+        color: @mb-color-link-disabled;
+      }
+    }
+  }
+}

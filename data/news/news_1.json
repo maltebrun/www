@@ -1,0 +1,13 @@
+{
+	"name": "news 1",
+	"version": "0.0.1",
+	"comments": "",
+	"values":  {
+		"title":		"On a posé le pied sur la lune !",
+		"date":			"12 décembre 1969",
+		"hour":			"15h12",
+		"text":			"Fusce mollis pulvinar lacus. Donec vitae urna et purus elementum bibendum. Cras eget dolor eu urna vehicula pulvinar eu posuere sapien. Cras congue risus enim, eget fringilla mi semper sit amet. Morbi sed neque sapien. Sed at nunc euismod, vehicula tellus eget, placerat leo. Pellentesque id felis et erat pharetra malesuada cursus in nunc.",
+		"url":			"http://www.nasa.org",
+		"link":			"nasa.org"
+	}
+}

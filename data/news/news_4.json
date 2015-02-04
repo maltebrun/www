@@ -1,0 +1,13 @@
+{
+	"name": "news 1",
+	"version": "0.0.1",
+	"comments": "",
+	"values":  {
+		"title":		"Bernadette Chirac écrasée par David Douillet.",
+		"date":			"11 novembre 2014",
+		"hour":			"7h45",
+		"text":			"Vivamus aliquet, risus id euismod tincidunt, lacus arcu sollicitudin odio, eu pellentesque magna nisi non ligula. Curabitur et sem nec erat mollis convallis.",
+		"url":			"http://www.chirac.fr",
+		"link":			"Chirac"
+	}
+}

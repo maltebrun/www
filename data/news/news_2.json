@@ -1,0 +1,13 @@
+{
+	"name": "news 1",
+	"version": "0.0.1",
+	"comments": "",
+	"values":  {
+		"title":		"Open bar chaque week-end à Paris !",
+		"date":			"11 décembre 2014",
+		"hour":			"20h30",
+		"text":			"Fusce tincidunt dolor magna. Praesent magna quam, luctus nec enim quis, tempus molestie diam. Vivamus placerat auctor fringilla.",
+		"url":			"http://www.nasa.org",
+		"link":			"nasa.org"
+	}
+}

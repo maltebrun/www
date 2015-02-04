@@ -1,0 +1,13 @@
+{
+	"name": "news 1",
+	"version": "0.0.1",
+	"comments": "",
+	"values":  {
+		"title":		"Nadine Morano n'est plus raciste.",
+		"date":			"1 avril 2014",
+		"hour":			"00h01",
+		"text":			"Sed fermentum porta eros eget pellentesque. Suspendisse nunc neque, rhoncus in sapien ut, aliquet consectetur ipsum. Suspendisse enim dui, lobortis vel dignissim quis, mattis vel magna. Aliquam ornare venenatis felis at porta. Ut est massa, tempus a quam nec, pellentesque laoreet sapien.",
+		"url":			"http://www.nadinemorano.fr",
+		"link":			"Nadine.fr"
+	}
+}

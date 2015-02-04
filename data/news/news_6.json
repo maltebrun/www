@@ -1,0 +1,13 @@
+{
+	"name": "news 1",
+	"version": "0.0.1",
+	"comments": "",
+	"values":  {
+		"title":		"Pas de bras, pas de chocolat.",
+		"date":			"8 janvier 2001",
+		"hour":			"8h00",
+		"text":			"Praesent elementum pellentesque commodo. Morbi rhoncus, ligula at commodo feugiat, massa ipsum aliquam magna, non mattis lacus nisl id velit. Integer gravida interdum erat in sollicitudin. Suspendisse sollicitudin non diam quis aliquet.",
+		"url":			"http://www.chirac.fr",
+		"link":			"Chirac"
+	}
+}
