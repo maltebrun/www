@@ -3,7 +3,15 @@
 	"version": "0.0.1",
 	"comments": "",
 	"values":  {
-		"bidon":		"Gros bidon",
-		"text":			"Nos solutions génèrent de la valeur à partir de données non structurées et structurées : lier vos données à des processus à forte intensité cognitive - rendre les données intelligentes !"
+		"text":			"Nous recueillons des données, nous veillons à leur qualité, nous les rendns opératinnelles pour que vos prises de décisions soient rapides et pertinentes.",
+		"subtext":		""
+	},
+	"altvalues1":  {
+		"text":			"La qualité et la récence de données opérationnelles pour des prises de décision rapides et pertinentes.",
+		"subtext":		""
+	},
+	"altvalues2":  {
+		"text":			"",
+		"subtext":		""
 	}
 }
