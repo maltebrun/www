@@ -6678,6 +6678,7 @@ a:focus {
 }
 .thumbnail .activitie {
   height: 300px;
+  min-height: 300px;
 }
 .thumbnail .activitie .message {
   text-align: justify;
