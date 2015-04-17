@@ -1,0 +1,41 @@
+{
+	"name": "opendata definitions",
+	"version": "0.0.1",
+	"values": {
+		"hangs":		{"type": "libel", "storage": "file", "language": "text", "source": "opendata.json", "data": ""				},
+		"articles":	{"type": "articles", "storage": "inline", "language": "json", "source": "", "data": 
+							[
+								{
+									"anchor":	"recensement",
+									"title":	"Recensement et catalogage",
+									"subtitle":	"",
+									"icon":		"",
+									"date":		"03 mars 2015",
+									"hour":		"13h56",
+									"image":	[
+													{"source": "", "top": true, "left": true},
+													{"source": "", "top": false, "left": false}
+												],
+									"text":		[
+													"C'est la vocation première de MalteBrun : identifier et recenser les sources de données libres, en provenance des institutions, des organisations, du secteur associatif, du monde collaboratif et quelquefois des entreprises elles-m&ecirc;mes.",
+													"Nous répondons ainsi à vos interrogations : quelle donnée est disponible pour quel usage ? Est-elle suffisament fiable ? Quelles sont ses conditions d'utilisation ? Quelle charge représente son intégration dans le système d'information ?"
+												]													
+								},
+								{
+									"anchor":	"utilisabilite",
+									"title":	"Utilisabilité",
+									"subtitle":	"",
+									"icon":		"",
+									"date":		"03 mars 2015",
+									"hour":		"13h56",
+									"image":	[
+												],
+									"text":		[
+													"Le caractère utilisable des jeux de données qu'offre l'Open Data suppose qu'ils répondent à certains critères : <ul><li><em>La fiabilité</em> : la gratuité des données ouvertes n'incite pas à la confiance, c'est une réalité. Mais c'est en fait la multiplicité des sources qui oblige à un contr&ocirc;le pointilleux de chaque jeu de données. Nous effectuons nous-m&ecirc;mes les tests de fiabilité nécessaires, nous avons nous-m&ecirc;mes confiance dans l'exactitude des données que nous utilisons et rediffusons, cela pour le meilleur bénéfice de nos clients et réutilisateurs.</li><li><em>L'efficacité</em> : pour apporter une réelle plus-value, la donnée doit rester à un niveau d'agrégation fin, &ecirc;tre actualisable et exhaustive. Nous qualifions les jeux de données recensés en fonction de ces critères.</li><li><em>L'efficience, ou ergonomie</em> : le temps et l'effort nécessaires à une mise en place opérationnelle des données doivent &ecirc;tre réduits au minimum. Beaucoup de données relevant de l'Open Data sont mal publiées, disparates, éclatées ou peu structurées. Les formats de livraison, tableur Excel ou document PDF, sont inadaptés à la plupart des réutilisations. C'est une des principales vocations de MalteBrun que d'identifier les sources de données, les compiler, les reformater pour les rendre directement opérationnelles dans les systèmes d'information des entreprises et des organisations.</li></ul>",
+													"MalteBrun travaille dans l'esprit Open Data. Les jeux de données que nous fiabilisons et rendons plus efficients conservent leur licence d'utilisation : ils sont librement exploitables et rediffusables. Et nous sommes les meilleurs conseillers pour en tirer la plus grande plus-value."
+												]													
+								}
+							]
+		}
+	}
+}
