@@ -1,0 +1,58 @@
+{
+	"name": "generic definitions",
+	"version": "0.0.1",
+	"values": {
+		"hangs":		{"type": "libel", "storage": "file", "language": "text", "source": "geo.json", "data": ""				},
+		"articles":	{"type": "articles", "storage": "inline", "language": "json", "source": "", "data": 
+							[
+								{
+									"anchor":	"geomarketing",
+									"title":	"Géomarketing",
+									"subtitle":	"",
+									"icon":		"",
+									"date":		"03 mars 2015",
+									"hour":		"13h56",
+									"image":	[
+													{"source": "", "top": true, "left": true},
+													{"source": "", "top": false, "left": false}
+												],
+									"text":		[
+													"MalteBrun possède une connaissance précise et actualisée du territoire sur plusieurs thèmes : <ul><li>son <em>découpage</em> : administratif par les communes et les cantons, statistique par les IRIS de l'INSEE, urbain par les &icirc;lots que constituent les patés de maisons,</li><li>sa <em>population</em> caractérisée par le niveau de revenus, le type d'habitat, l'&acirc;ge moyen, ...,</li><li>ses <em>activités</em>, commerciales, touristiques, administratives ou de services,</li><li>sa <em>géographie</em>, en termes d'accessibilité et d'habitabilité.</li></ul>",
+													"C'est donc naturellement que nous proposons notre assistance aux projets géomarketing en apportant les outils nécessaires à la qualification et au scoring des fichiers clients, aux études de marché, d'organisation et d'implantation, au ciblage des communications commerciales.",
+													"Entre autres méthodologies, nous utilisons la classification ascendante hiérarchique (CAH) pour former nos typologies, l'algorithme de Dijkstra pour le calcul des isochrones définissant les zones de chalandise, des distanciers et un modèle gravitaire pour quantifier l'attractivité des lieux d'activité."
+												]													
+								},
+								{
+									"anchor":	"sectorisation",
+									"title":	"Sectorisation",
+									"subtitle":	"",
+									"icon":		"",
+									"date":		"03 mars 2015",
+									"hour":		"13h56",
+									"image":	[
+												],
+									"text":		[	"Une sectorisation territoriale est un découpage du territoire optimisé selon certains critères et à usage commercial, logistique ou administratif.",
+													"MalteBrun dispose d'une expérience toute particulière dans le domaine de la sectorisation automatique. Nous utilisons une technologie qui nous est propre basée sur l'algorithme du recuit simulé (simulated annealing) très utilisé dans l'industrie.",
+													"En fonction de vos besoins et de vos contraintes, nous intégrons les données nécessaires (limites administratives, accessibilité, potentiel de clientèle, densité de population, ...) puis nous procédons à l'optimisation sur nos serveurs de calcul. Un ou deux aller-retours sont souvent nécessaires pour ajuster le résultat à la marge, avant une livraison finale."
+												]													
+								},
+								{
+									"anchor":	"cartographie",
+									"title":	"Cartographie et géomatique",
+									"subtitle":	"",
+									"icon":		"",
+									"date":		"03 mars 2015",
+									"hour":		"13h56",
+									"image":	[
+												],
+									"text":		[
+													"Chez MalteBrun nous sommes passionnés par la cartographie statistique. Nous considérons la carte comme devant &ecirc;tre un support à la compréhension, et pas seulement un tableau interactif garni d'horribles petites épingles rouges sur lesquelles on peut cliquer. En bons émules de Jacques Bertin nous appliquons les préceptes de la sémiologie graphique pour créer des cartes dont la lecture est une aide précieuse à la prise de décision.",
+													"Nos sorties sur support papier sont livrables à l'unité en impression de haute qualité jusqu'au format A0, ou en volume jusqu'au format A3. Nos sorties sur support électronique sont au format PDF, ou à tout autre format sur demande.",
+													"Nous disposons aussi des outils nécessaires pour générer des atlas cartographiques, constitués de cartes appliquant la m&ecirc;me analyse thématique à des territoires différents, pouvant aller en nombre jusqu'à plusieurs milliers.",
+													"Et bien entendu, nous sommes en mesure de diffuser vos résultats via des applications de web mapping, construites sur des technologies open sources éprouvées."
+												]													
+								}
+							]
+		}
+	}
+}
