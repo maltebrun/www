@@ -1,0 +1,54 @@
+{
+	"name": "generic definitions",
+	"version": "0.0.1",
+	"values": {
+		"hangs":		{"type": "libel", "storage": "file", "language": "text", "source": "scraping.json", "data": ""				},
+		"articles":	{"type": "articles", "storage": "inline", "language": "json", "source": "", "data": 
+							[
+								{
+									"anchor":	"webscrapingneeds",
+									"title":	"Le besoin",
+									"subtitle":	"",
+									"icon":		"",
+									"date":		"11 mars 2015",
+									"hour":		"17h48",
+									"image":	[
+													{"source": "", "top": true, "left": true},
+													{"source": "", "top": false, "left": false}
+												],
+									"text":		[
+													"Le recueil de données sur internet est une activité que tout chargé d'étude a pratiqué au moins une fois dans le cadre de ses missions : trouver l'information à l'aide d'un moteur de recherche, effectuer une série de copier-coller depuis des pages web vers un tableur, et après un fastidieux travail d'épurage et de réorganisation insérer le résultat dans une base de données, un rapport ou une présentation.",
+													"Le scraping est l'automatisation de cette t&acirc;che : vous économisez votre temps, votre argent et votre patience. Et vous supprimez les risques d'erreurs. L'opération est pratiquement toujours rentable, m&ecirc;me en one-shot."
+												]													
+								},
+								{
+									"anchor":	"webscrapingwhat",
+									"title":	"Les possibilités",
+									"subtitle":	"",
+									"icon":		"",
+									"date":		"11 mars 2015",
+									"hour":		"17h48",
+									"image":	[
+												],
+									"text":		[
+													"<ul><li><em>Quelles données ?&nbsp;</em>&nbsp;Toutes les données sous licence ouverte et dont le format est inadéquat pour une utilisation opérationnelle immédiate sont susceptibles d'&ecirc;tre collectées, mais également tout autre donnée dont la captation est légale et autorisée.</li><li><em>Quels usages ?&nbsp;</em>&nbsp;Le scraping web permet d'envisager la constitution de bases de données, d'annuaires, d'observatoires dans tous domaines : marketing, politique, économie, scientifique, ...</li><li><em>Quels formats ?&nbsp;</em>&nbsp;Nous extrayons les données contenues dans les pages HTML, ou dans les fichiers PDF ou tableaux Excel. Nous étudions sur demande la faisabilité de lecture d'autres formats ou d'autres supports.</li></ul>",
+													""
+												]													
+								},
+								{
+									"anchor":	"webscrapingoffer",
+									"title":	"Notre offre",
+									"subtitle":	"",
+									"icon":		"",
+									"date":		"11 mars 2015",
+									"hour":		"17h48",
+									"image":	[
+												],
+									"text":		[
+													"Notre intervention comprend trois étapes : <ul><li><em>Le ciblage des sources</em> : après analyse et formalisation de votre demande, nous identifions la ou les pages web qui contiennent l'information recherchée.</li><li><em>L'extraction des données</em> : un script de lecture est développé selon la structure interne des documents sources, puis exécuté avec des paramètres respectueux des serveurs web sollicités.</li><li><em>La mise en forme et la livraison</em> : les données récupérées sont compilées et structurées en fonction de leur destination : base de données, tableur, présentation. Des métadonnées peuvent &ecirc;tre conservées pour faciliter un éventuel cycle de mise à jour.</li></ul>"
+												]													
+								}
+							]
+		}
+	}
+}
