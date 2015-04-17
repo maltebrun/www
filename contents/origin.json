@@ -1,6 +1,40 @@
 {
-	"name": "generic definitions",
+	"name": "origin definitions",
 	"version": "0.0.1",
 	"values": {
+		"articles":	{"type": "articles", "storage": "inline", "language": "json", "source": "", "data": 
+							[
+								{
+									"anchor":	"aproposde",
+									"title":	"A propos de MalteBrun",
+									"subtitle":	"",
+									"icon":		"",
+									"date":		"07 mars 2015",
+									"hour":		"18h03",
+									"image":	[
+													{"source": "", "top": true, "left": true},
+													{"source": "", "top": false, "left": false}
+												],
+									"text":		[
+													"MalteBrun est une SAS (Société par Actions Simplifiée) indépendante et dont le capital est détenu par son management et par des entrepreneurs ou des ingénieurs tous experts dans les domaines de l'analyse et du traitement des données, et confrontés au quotidien aux problématiques des entreprises et des organisations.",
+													"Son Président est Michel GOULAS, diplomé de l'ENSAE (Ecole Nationale de la Statistique et de l'Administration Economique), promotion 1987 de la division CGSA. Débutant son activité chez Socio Logiciels, leader français des études statistiques en marketing et sciences humaines, il a ensuite conseillé des grands comptes (France Télécom, IFOP, Sephora, SGS, ...) puis dirigé la conception du back-office géographique de l'activité PNA (Publicité Non Adressée) du Groupe La Poste."
+												]													
+								},
+								{
+									"anchor":	"ecosysteme",
+									"title":	"L'écosystème de MalteBrun",
+									"subtitle":	"",
+									"icon":		"",
+									"date":		"07 mars 2015",
+									"hour":		"18h03",
+									"image":	[
+												],
+									"text":		[
+													"MalteBrun est une société jeune, dynamique et ambitieuse, et toutefois aux compétences expérimentées et éprouvées.",
+													"Les augmentations fulgurantes des capacités de stockage et de traitement de l'information, l'utilisation presque exclusive des medias numériques pour les communications institutionnelles et personnelles ont conditionné l'émergence d'un écosystème de spécialistes du traitement et de l'analyse des données répondant aux besoins d'acteurs économiques toujours plus demandeurs. MalteBrun s'inscrit pleinement dans cette évolution, en étant utilisateur et promoteur des innovations scientifiques et technologiques induites, et en enrichissant cet écosystème par la diffusion libre de données élaborées, tout en positionnant son modèle économique sur les plus-values apportées par l'usage de ces m&ecirc;mes données."
+												]													
+								}
+							]
+		}
 	}
 }

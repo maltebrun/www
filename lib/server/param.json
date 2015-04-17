@@ -19,7 +19,7 @@
 		"purpose": "production",
 		"port": 1664,
 		"host": "localhost",
-		"pretty": false,
+		"pretty": true,
 		"development": false,
 		"view_engine": "jade"
 	}

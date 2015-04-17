@@ -1,6 +1,42 @@
 {
-	"name": "generic definitions",
+	"name": "analytic definitions",
 	"version": "0.0.1",
 	"values": {
+		"hangs":		{"type": "libel", "storage": "file", "language": "text", "source": "analytic.json", "data": ""				},
+		"articles":	{"type": "articles", "storage": "inline", "language": "json", "source": "", "data": 
+							[
+								{
+									"anchor":	"dataanalysys",
+									"title":	"Analyse des données",
+									"subtitle":	"",
+									"icon":		"",
+									"date":		"03 mars 2015",
+									"hour":		"13h56",
+									"image":	[
+													{"source": "", "top": true, "left": true},
+													{"source": "", "top": false, "left": false}
+												],
+									"text":		[
+													"Que vous cherchiez à comprendre un phénomène ou juste à le constater et en tirer profit, l’approche analytique est essentielle pour toute prise de décision conduite par les données. Elle peut se décliner en deux grandes démarches : une analyse exploratoire et descriptive, que l'on destine à découvrir sans pré-supposé des tendances et des relations, et les techniques de modélisation qui visent à établir ou vérifier des hypothèses sur le comportement des données.",
+													"Nous maitrisons ces deux aspects de l'analyse des données, et surtout leur enchainement, en choisissant les méthodologies les plus aptes à répondre à votre problématique."
+												]													
+								},
+								{
+									"anchor":	"methodes",
+									"title":	"Méthodes et outils",
+									"subtitle":	"",
+									"icon":		"",
+									"date":		"09 mars 2015",
+									"hour":		"16h31",
+									"image":	[
+												],
+									"text":		[
+													"Nous ma&icirc;trisons les méthodes statistiques classiques et modernes : statistiques descriptives et tests d'hypothèses, moyennes mobiles et séries temporelles, régression linéaire, logistique, PLS, analyse en composantes principales, factorielle, discriminante, segmentations, réseaux de neurones et bayésiens, machine learning, ...",
+													"Le choix d'une ou plusieurs de ces méthodes est déterminé par votre problématique et la nature des données disponibles : nous abordons la démarche statistique avec pragmatisme et le souci de la simplicité et nous évitons de surdimensionner inutilement la technicité de notre solution.",
+													"Nos outils de prédilection sont le logiciel d'analyse statistique R et le langage Python, ainsi que le SGBD PostgreSQL et sa cartouche spatiale PostGIS pour le stockage des données. Alternativement nous utilisons javascript coté serveur, notamment en exploitant node.js et ses nombreux modules, ainsi que MongoDB pour stocker de l'information non structurée."
+												]													
+								}
+							]
+		}
 	}
 }

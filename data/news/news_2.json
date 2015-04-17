@@ -1,13 +1,13 @@
 {
-	"name": "news 1",
+	"name": "news 2",
 	"version": "0.0.1",
 	"comments": "",
 	"values":  {
-		"title":		"Open bar chaque week-end à Paris !",
-		"date":			"11 décembre 2014",
-		"hour":			"20h30",
-		"text":			"Fusce tincidunt dolor magna. Praesent magna quam, luctus nec enim quis, tempus molestie diam. Vivamus placerat auctor fringilla.",
-		"url":			"http://www.nasa.org",
-		"link":			"nasa.org"
+		"title":		"Base officielle des codes postaux",
+		"date":			"6 novembre 2014",
+		"hour":			"12h06",
+		"text":			"La base officielle des codes postaux est publiée en licence ouverte par La Poste sur la plateforme des données publiques françaises data.gouv.fr. Il s'agit d'une simple table de correspondance communes - codes postaux et m&ecirc;me si data.gouv.fr rappelle que la géométrie des communes est également disponible, la géométrie des limites postales des communes pluri-distribuées est absente. C'est un projet MalteBrun que de la reconstituer. A suivre...",
+		"url":			"https://www.data.gouv.fr/fr/datasets/base-officielle-des-codes-postaux/",
+		"link":			"data.gouv.fr"
 	}
 }

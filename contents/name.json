@@ -2,5 +2,54 @@
 	"name": "generic definitions",
 	"version": "0.0.1",
 	"values": {
+		"articles":	{"type": "articles", "storage": "inline", "language": "json", "source": "", "data": 
+							[
+								{
+									"anchor":	"name",
+									"title":	"Le nom MalteBrun",
+									"subtitle":	"",
+									"icon":		"",
+									"date":		"13 mars 2015",
+									"hour":		"15h46",
+									"image":	[
+													{"source": "", "top": true, "left": true},
+													{"source": "", "top": false, "left": false}
+												],
+									"text":		[
+													"Le nom de notre société est un hommage à deux géographes français du XIX<sup>ème</sup> siècle : Conrad Malte-Brun et son fils Victor-Adolphe Malte-Brun.",
+													"Leurs &#339;uvres sont pour la plupart consultables et téléchargeables sur Gallica : <a href=http://gallica.bnf.fr/> http://gallica.bnf.fr/</a>"
+												]													
+								},
+								{
+									"anchor":	"conrad",
+									"title":	"Conrad Malte-Brun",
+									"subtitle":	"",
+									"icon":		"",
+									"date":		"13 mars 2015",
+									"hour":		"15h46",
+									"image":	[
+												],
+									"text":		[
+													"Conrad Malte-Brun, né en 1775 au Danemark, s'exile en France à l'&acirc;ge de 25 ans pour échapper aux poursuites que lui valurent ses positions en faveur de la liberté de la presse et de l'émancipation des paysans. Il est le premier à produire une Géographie Universelle, précédant en cela Elysée Reclus, et dans laquelle il s'attache à décrire le monde sous ses aspects tant physiques que politiques et économiques. Il utilise pour cela une profusion de données statistiques, présentées avec rigueur et précision. Il destine ses ouvrages au plus grand nombre, et <q>principalement aux Maisons d'Education, aux Professeurs de Géographie, aux Négocians et aux Bibliothèques des Hommes d'Etat</q>.",
+													"Ce travail titanesque de collecte de données et d'information associé à une volonté de large diffusion fait de Conrad Malte-Brun un précurseur de l'Open Data d'aujourd'hui."
+												]													
+								},
+								{
+									"anchor":	"victor",
+									"title":	"Victor Malte-Brun",
+									"subtitle":	"",
+									"icon":		"",
+									"date":		"13 mars 2015",
+									"hour":		"15h46",
+									"image":	[
+												],
+									"text":		[
+													"Victor-Adolphe Malte-Brun, né en 1816 et fils de Conrad réédita la Géographie Universelle de son père en l'actualisant et la complétant des comptes-rendus d'expéditions récentes ainsi que par son remarquable talent de cartographe. Il publia quant à lui La France Illustrée, somme de connaissances sur son pays établies avec le m&ecirc;me souci de précision, de rigueur et d'exhaustivité que son père avait eu avant lui.",
+													"Son activité illustre les nécessités de mise à jour et de complétude pour garantir l'utilité des données ainsi que l'aide précieuse qu'apporte la visualisation à la compréhension des phénomènes.",
+													"Une rue porte son nom à Marcoussis, commune de l'Essonne où il avait établi sa résidence d'été et qui lui rend ainsi hommage."
+												]													
+								}
+							]
+		}
 	}
 }

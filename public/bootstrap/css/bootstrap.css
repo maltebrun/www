@@ -6676,12 +6676,74 @@ a:focus {
   border: 1px solid #c6c6c6;
   border-radius: 4px;
 }
-.thumbnail .activitie {
-  height: 300px;
-  min-height: 300px;
+.thumbnail.activitie {
+  height: 330px;
 }
-.thumbnail .activitie .message {
+.thumbnail.activitie .message {
   text-align: justify;
+  text-indent: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.article {
+  border: 0px solid #c6c6c6;
+  border-radius: 4px;
+}
+.article .message {
+  text-align: justify;
+}
+.article .message ul {
+  list-style-type: square;
+  list-style-position: inside;
+}
+.article .message ul li {
+  padding-left: 10px;
+}
+.article.domain {
+  height: auto;
+  margin-bottom: 25px;
+}
+.article.domain .caption {
+  background-image: url("/img/1x3-color-logo-marron.png");
+  background-repeat: repeat-x;
+  background-position: left;
+}
+.article.domain .caption h4 span {
+  background-color: #ffffff;
+  padding-right: 30px;
+}
+.article.domain .message {
+  text-indent: 15px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.article.activitie {
+  height: auto;
+  margin-bottom: 55px;
+}
+.article.activitie .caption {
+  color: #800000;
+  background-image: url("/img/pixel-color-logo-marron.png");
+  background-repeat: repeat-x;
+  background-position: left;
+}
+.article.activitie .caption h4 span {
+  background-color: #ffffff;
+  padding-right: 30px;
+}
+.article.activitie .message {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+  border: 1px solid #c6c6c6;
+  border-radius: 4px;
 }
 .widgets {
   margin-bottom: -30px;
@@ -6904,10 +6966,14 @@ header .contact .mail a {
   background-color: #fffcf7;
 }
 .container .jumbotron {
-  padding-top: 5px;
   background-color: #ffffff;
   border: 1px solid #c6c6c6;
   border-radius: 4px;
+}
+.container .jumbotron h3,
+.container .jumbotron .h3 {
+  margin-top: -20px;
+  margin-bottom: -10px;
 }
 .navbar-maltebrun {
   background-color: tranparent;

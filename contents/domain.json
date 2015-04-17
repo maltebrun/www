@@ -1,6 +1,346 @@
 {
-	"name": "generic definitions",
+	"name": "domain definitions",
 	"version": "0.0.1",
 	"values": {
+		"hangs":	{"type": "libel", "storage": "file", "language": "text", "source": "domain.json", "data": ""				},
+		"articles":	{"type": "articles", "storage": "inline", "language": "json", "source": "", "data": 
+							[
+								{
+									"anchor":	"science",
+									"title":	"Sciences",
+									"subtitle":	"",
+									"icon":		"noun_81026_cc_40x40.png",
+									"date":		"17 février 2015",
+									"hour":		"10h34",
+									"show":		true,
+									"image":	[
+													{"source": "", "top": true, "left": true},
+													{"source": "", "top": false, "left": false}
+												],
+									"text":		[	"<strong>Statistiques inférentielles</strong>",
+													"Quel que soit le domaine scientifique de leur activité (physique, chimie, biologie, médecine, économie, ...), les chercheurs et les expérimentateurs appréhendent quelquefois de devoir utiliser des tests statistiques pour valider leurs hypothèses sur la base des données numériques recueillies, ne se sentant pas investis du savoir-faire nécessaire.",
+													"En utilisant des outils largement adoptés par la communauté scientifique (R, Python, ...), MalteBrun répond aux problématiques posées en utilisant toute la gamme méthodologique de l'analyse statistique des résultats de mesure : comparaison de moyennes, analyse de variance, régression linéaire, tests d'hypothèses ...",
+													"<strong>Conception de bases de données scientifiques</strong>",
+													"De même que le chercheur ou l'ingénieur n'a pas vocation à être spécialiste des tests statistiques, il est encore moins fondé à développer lui-même l'architecture de ses bases de données. Il ne doit pas pour autant en confier la modélisation aux seuls informaticiens : c'est une tâche qui doit s'effectuer conjointement, l'efficacité des requêtes d'interrogation en dépend.",
+													"Étant hébergeurs de nos données, nous sommes régulièrement confrontés à des problématiques complexes de modélisation : structures de graphes, fortes volumétries, bases documentaires, bases à dimension relationnelle élevée, ... De fait nous sommes à même d'intervenir dans les étapes de développement de bases simples ou complexes :<ul><li>Création du modèle conceptuel des données prenant en compte les problématiques utilisateur</li><li>Écriture des contraintes d'intégrité</li><li>Alimentation de la base en données externes</li><li>Développement des requêtes de gestion et d'analyse</li><li>Optimisation de la base en volume et en temps de réponse</li></ul>"
+												]													
+								},
+								{
+									"anchor":	"marketing",
+									"title":	"Marketing",
+									"subtitle":	"",
+									"icon":		"noun_31789_cc_40x40.png",
+									"date":		"17 février 2015",
+									"hour":		"10h34",
+									"show":		true,
+									"image":	[
+												],
+									"text":		[
+													"<strong>Les données utiles à la connaissance client</strong>",
+													"La donnée n'est plus rare et le positionnement concurrentiel de l'entreprise basé sur l'accès à la donnée n'est plus pertinent : c'est aujourd'hui l'enrichissement des bases clients et prospects par de multiples jeux de données disparates qui crée une connaissance client différenciante.",
+													"Le référentiel îlots MalteBrun est constitué de l'unification et de la mise en forme opérationnelle de données publiques ou communautaires. Il dispose des deux dimensions géo et data et de typologies précalculées. Il est tout destiné à l'amélioration de la connaissance client et territoire en B2B comme en B2C dans le cadre des opérations de marketing stratégique :<ul><li>segmentation de la clientèle, enrichissement du RFM</li><li>études d'implantation, zones de chalandise, zones de pression concurrentielle</li></ul>",
+													"ainsi que dans le cadre des actions de marketing opérationnel :",
+													"<ul><li>zones de ciblage, calculs d'isochrones, optimisation des communications directes</li><li>identification du point de vente le plus proche dans les opérations digitales web-to-store</li></ul></ul>",
+													"Nos données sont construites sur des données dites &quot;libres&quot; et conservent cette spécificité : vous pouvez les télécharger et les utiliser en interne sans rien nous devoir. De notre part vous disposez de l'assistance nécessaire à une intégration réussie et une exploitation optimale : nous avons pour cela le savoir-faire technique et le savoir-faire scientifique.",
+													"<strong>Les données utiles à la connaissance des marchés</strong>",
+													"Les techniques de veille digitale sur le web ou les réseaux sociaux fournissent un flux très abondant d'informations que seul un jeu de filtres et de tris calibrés permettra d'en extraire les pertinences telles que :<li>des tendances de marché : émergence, stabilité, en déclin, en reprise.</li><li>des corrélations et des saisonnalités : très précieuses pour l'analyse prédictive, elles permettent d'expliquer et d'anticiper les phénomènes de marché.</li><li>des effets de mode : ce sont les tendances fortuites dites &quot;cour de récré&quot;, elles exigent des algorithmes précis pour être détectées dès le début de leur phase montante.</li></ul>",
+													"De nombreuses applications web et mobile proposent des solutions de veille informationnelle configurables par l'utilisateur sans compétence autre que celles de son métier. Chez MalteBrun nous croyons au contraire que la synergie est nécessaire entre la compétence métier de l'utilisateur et notre expérience en analyse des données et en algorithmie pour extraire l'information la plus pertinente et la plus utile."
+												]													
+								},
+								{
+									"anchor":	"economie",
+									"title":	"Economie",
+									"subtitle":	"",
+									"icon":		"noun_4196_40x40.png",
+									"date":		"17 février 2015",
+									"hour":		"10h34",
+									"show":		false,
+									"image":	[
+												],
+									"text":		[
+													"Accédez librement à des jeux de données d'usage professionnel et directement opérationnels pour vos activités de recherche, développement ou vente. Nous constituons ces jeux sur la base de données libres institutionnelles ou communautaires.",
+													"Contactez-nous pour toute assistance : nous sommes les meilleurs spécialistes des données que nous diffusons !"
+												]													
+								},
+								{
+									"anchor":	"sante",
+									"title":	"Santé",
+									"subtitle":	"",
+									"icon":		"noun_10998_cc_40x40.png",
+									"date":		"17 février 2015",
+									"hour":		"10h34",
+									"show":		false,
+									"image":	[
+												],
+									"text":		[
+													"Accédez librement à des jeux de données d'usage professionnel et directement opérationnels pour vos activités de recherche, développement ou vente. Nous constituons ces jeux sur la base de données libres institutionnelles ou communautaires.",
+													"Contactez-nous pour toute assistance : nous sommes les meilleurs spécialistes des données que nous diffusons !"
+												]													
+								},
+								{
+									"anchor":	"social",
+									"title":	"Social",
+									"subtitle":	"",
+									"icon":		"noun_7771_40x40.png",
+									"date":		"17 février 2015",
+									"hour":		"10h34",
+									"show":		false,
+									"image":	[
+												],
+									"text":		[
+													"Accédez librement à des jeux de données d'usage professionnel et directement opérationnels pour vos activités de recherche, développement ou vente. Nous constituons ces jeux sur la base de données libres institutionnelles ou communautaires.",
+													"Contactez-nous pour toute assistance : nous sommes les meilleurs spécialistes des données que nous diffusons !"
+												]													
+								},
+								{
+									"anchor":	"media",
+									"title":	"Médias",
+									"subtitle":	"",
+									"icon":		"noun_37164_cc_40x40.png",
+									"date":		"17 février 2015",
+									"hour":		"10h34",
+									"show":		true,
+									"image":	[
+												],
+									"text":		[
+													"Aujourd'hui l’&ecirc;tre humain produit plus de données en un seul jour qu'il n'en a produites depuis son origine jusqu'à l'an 2000. Cette abondance est un gain mais complexifie l'accessibilité à la donnée dans tous ses aspects : recherche, décodage, transcription, analyse, interprétation. Pour le professionnel de l'information, la partie investigation de son activité est fondamentalement impactée : on troque le magnétophone et la bibliothèque contre des algorithmes et des bases de données en collaboration avec les experts du numérique : informaticiens, algorithmiciens et statisticiens.",
+													"Notre assistance est profitable m&ecirc;me pour de simples interventions : la lecture automatisée d'un fichier PDF remplacera un laborieux et long travail de saisie manuelle tout en le fiabilisant.",
+													"Nous traitons les sujets plus complexes : recherche ad-hoc sur le web, classification de documents, analyse de données ... tout en gardant à l'esprit que le journaliste doit accompagner son information de la preuve de cette information."
+												]													
+								},
+								{
+									"anchor":	"public",
+									"title":	"Service public",
+									"subtitle":	"",
+									"icon":		"noun_731_40x40.png",
+									"date":		"17 février 2015",
+									"hour":		"10h34",
+									"show":		false,
+									"image":	[
+												],
+									"text":		[
+													"Accédez librement à des jeux de données d'usage professionnel et directement opérationnels pour vos activités de recherche, développement ou vente. Nous constituons ces jeux sur la base de données libres institutionnelles ou communautaires.",
+													"Contactez-nous pour toute assistance : nous sommes les meilleurs spécialistes des données que nous diffusons !"
+												]													
+								},
+								{
+									"anchor":	"politique",
+									"title":	"Politique",
+									"subtitle":	"",
+									"icon":		"noun_28728_cc_40x40.png",
+									"date":		"17 février 2015",
+									"hour":		"10h34",
+									"show":		true,
+									"image":	[
+												],
+									"text":		[
+													"<strong>Un outil de connaissance et de communication</strong>",
+													"Auparavant difficiles d'accès et coûteuses, les données électorales sont aujourd'hui largement disponibles grâce à la volonté d'ouverture des données de l’État.",
+													"Nous nous attachons à intégrer les découpages électoraux dans nos référentiels géographiques, ce qui nous permet d'offrir une dimension supplémentaire à l'analyse sociologique du territoire : les tendances et les évolutions des votes sont un reflet très actualisé des paramètres sociaux et anticipent les comportements et les attitudes de la population.",
+													"Une telle intégration constitue d'autre part un outil précis de communication politique grâce à une granulométrie fine : communes, quartiers ou îlots sont transposables vers les sectorisations logistiques des acteurs de la communication directe.",
+													"<strong>Un outil d'analyse et de prédiction</strong>",
+													"Nous disposons des outils et du savoir-faire pour une analyse approfondie des scrutins dans leurs dimensions spatiale et temporelle :",
+													"<li>Statistiques descriptives, analyse de variance, analyse en composantes principales, corrélogrammes pour une compréhension fine des comportements électoraux.</li>",
+													"<li>Algèbre linéaire, régressions multiples pour estimer les transferts de votes des entre deux tours, simuler des scrutins et prédire les résultats des élections.</li>",
+													"<li>Cartographie pour la visualisation spatiale des résultats.</li>"
+												]													
+								},								{
+									"anchor":	"distribution",
+									"title":	"Distribution",
+									"subtitle":	"",
+									"icon":		"noun_53492_cc_40x40.png",
+									"date":		"17 février 2015",
+									"hour":		"10h34",
+									"show":		false,
+									"image":	[
+												],
+									"text":		[
+													"Accédez librement à des jeux de données d'usage professionnel et directement opérationnels pour vos activités de recherche, développement ou vente. Nous constituons ces jeux sur la base de données libres institutionnelles ou communautaires.",
+													"Contactez-nous pour toute assistance : nous sommes les meilleurs spécialistes des données que nous diffusons !"
+												]													
+								},
+								{
+									"anchor":	"transport",
+									"title":	"Transport",
+									"subtitle":	"",
+									"icon":		"noun_58755_cc_40x40.png",
+									"date":		"17 février 2015",
+									"hour":		"10h34",
+									"show":		false,
+									"image":	[
+												],
+									"text":		[
+													"Accédez librement à des jeux de données d'usage professionnel et directement opérationnels pour vos activités de recherche, développement ou vente. Nous constituons ces jeux sur la base de données libres institutionnelles ou communautaires.",
+													"Contactez-nous pour toute assistance : nous sommes les meilleurs spécialistes des données que nous diffusons !"
+												]													
+								},
+								{
+									"anchor":	"energie",
+									"title":	"Energie",
+									"subtitle":	"",
+									"icon":		"noun_23688_cc_40x40.png",
+									"date":		"17 février 2015",
+									"hour":		"10h34",
+									"show":		false,
+									"image":	[
+												],
+									"text":		[
+													"Accédez librement à des jeux de données d'usage professionnel et directement opérationnels pour vos activités de recherche, développement ou vente. Nous constituons ces jeux sur la base de données libres institutionnelles ou communautaires.",
+													"Contactez-nous pour toute assistance : nous sommes les meilleurs spécialistes des données que nous diffusons !"
+												]													
+								},
+								{
+									"anchor":	"finance",
+									"title":	"Finance",
+									"subtitle":	"",
+									"icon":		"noun_100161_cc_40x40.png",
+									"date":		"17 février 2015",
+									"hour":		"10h34",
+									"show":		false,
+									"image":	[
+												],
+									"text":		[
+													"Accédez librement à des jeux de données d'usage professionnel et directement opérationnels pour vos activités de recherche, développement ou vente. Nous constituons ces jeux sur la base de données libres institutionnelles ou communautaires.",
+													"Contactez-nous pour toute assistance : nous sommes les meilleurs spécialistes des données que nous diffusons !"
+												]													
+								},
+								{
+									"anchor":	"education",
+									"title":	"Education",
+									"subtitle":	"",
+									"icon":		"noun_105306_cc_40x40.png",
+									"date":		"17 février 2015",
+									"hour":		"10h34",
+									"show":		true,
+									"image":	[
+												],
+									"text":		[
+													"Le mouvement d'ouverture des données publiques concerne très logiquement l’Éducation Nationale et l'Enseignement Supérieur. Les informations disponibles sont riches mais encore disparates et très hétérogènes selon les Académies qui proposent des structurations et des granulométries différentes.",
+													"Nous avons vocation à recenser et homogénéiser les bases publiques et les intégrer au niveau le plus fin possible dans les référentiels socio-spatiaux que nous maintenons, offrant par ce moyen un outil précis pour une approche systémique du réseau éducatif dans ses dimensions macro, méso et micro :<ul><li>Au niveau macro, le réseau, pour une analyse des politiques de l'éducation, de leur efficacité et de leur coûts, pour affiner les indices d'attractivité du territoire et les typologies socio-démographiques.</li><li>Au niveau méso, l'établissement, en recensant les données d'accessibilité, de capacité et administratives, le zonage de recrutement, ainsi que les indicateurs de performance.</li><li>Au niveau micro, l'élève, en collectant les programmes par section et par niveau, les sujets d'examens et les résultats, à l'exclusion de toute donnée personnelle.</li></ul>"
+												]													
+								},
+								{
+									"anchor":	"culture",
+									"title":	"Culture",
+									"subtitle":	"",
+									"icon":		"noun_21056_40x40.png",
+									"date":		"17 février 2015",
+									"hour":		"10h34",
+									"show":		true,
+									"image":	[
+												],
+									"text":		[
+													"Les musées, les monuments, les châteaux, les églises, les sites préhistoriques et tout autre lieu constitutif du patrimoine français participent à notre culture et à l'attractivité de notre territoire.",
+													"Recenser les lieux historiques et contemporains ainsi que les objets qu'ils contiennent ressort donc de l’intérêt des individus comme des institutions.",
+													"Nous recensons les bases ouvertes disponibles, nous les complétons, les compilons et les géocodons pour former un jeu de points d’intérêt pour lequel nous fournissons toute l'assistance nécessaire à son intégration dans vos applications web ou mobile."
+												]													
+								},
+								{
+									"anchor":	"humanitaire",
+									"title":	"Humanitaire",
+									"subtitle":	"",
+									"icon":		"noun_4231_40x40.png",
+									"date":		"17 février 2015",
+									"hour":		"10h34",
+									"show":		false,
+									"image":	[
+												],
+									"text":		[
+													"Accédez librement à des jeux de données d'usage professionnel et directement opérationnels pour vos activités de recherche, développement ou vente. Nous constituons ces jeux sur la base de données libres institutionnelles ou communautaires.",
+													"Contactez-nous pour toute assistance : nous sommes les meilleurs spécialistes des données que nous diffusons !"
+												]													
+								},
+								{
+									"anchor":	"ecologie",
+									"title":	"Ecologie",
+									"subtitle":	"",
+									"icon":		"noun_2075_40x40.png",
+									"date":		"17 février 2015",
+									"hour":		"10h34",
+									"show":		false,
+									"image":	[
+												],
+									"text":		[
+													"Accédez librement à des jeux de données d'usage professionnel et directement opérationnels pour vos activités de recherche, développement ou vente. Nous constituons ces jeux sur la base de données libres institutionnelles ou communautaires.",
+													"Contactez-nous pour toute assistance : nous sommes les meilleurs spécialistes des données que nous diffusons !"
+												]													
+								},
+								{
+									"anchor":	"tourisme",
+									"title":	"Tourisme",
+									"subtitle":	"",
+									"icon":		"noun_22641_cc_40x40.png",
+									"date":		"17 février 2015",
+									"hour":		"10h34",
+									"show":		false,
+									"image":	[
+												],
+									"text":		[
+													"Accédez librement à des jeux de données d'usage professionnel et directement opérationnels pour vos activités de recherche, développement ou vente. Nous constituons ces jeux sur la base de données libres institutionnelles ou communautaires.",
+													"Contactez-nous pour toute assistance : nous sommes les meilleurs spécialistes des données que nous diffusons !"
+												]													
+								},
+								{
+									"anchor":	"sport",
+									"title":	"Sport",
+									"subtitle":	"",
+									"icon":		"noun_21073_cc_40x40.png",
+									"date":		"17 février 2015",
+									"hour":		"10h34",
+									"show":		false,
+									"image":	[
+												],
+									"text":		[
+													"Accédez librement à des jeux de données d'usage professionnel et directement opérationnels pour vos activités de recherche, développement ou vente. Nous constituons ces jeux sur la base de données libres institutionnelles ou communautaires.",
+													"Contactez-nous pour toute assistance : nous sommes les meilleurs spécialistes des données que nous diffusons !"
+												]													
+								},
+								{
+									"anchor":	"agriculture",
+									"title":	"Agriculture",
+									"subtitle":	"",
+									"icon":		"noun_1192_cc_40x40.png",
+									"date":		"17 février 2015",
+									"hour":		"10h34",
+									"show":		true,
+									"image":	[
+												],
+									"text":		[
+													"Conjointement à l'ouverture des données publiques du domaine agricole, l'accessibilité des techniques d'acquisition (capteurs fixes ou embarqués, drones, imagerie satellite, ...) confronte déjà l'agriculture à des besoins d'organisation, de modélisation et d'analyse des très gros volumes de données générés pour lesquels la composante spatiale est essentielle.",
+													"Dans ce contexte annonciateur de forts changements dans les pratiques métiers, MalteBrun s'inscrit naturellement en proposant des solutions qui profitent de notre fort savoir-faire dans le traitement et l'analyse des données géographiques."
+												]													
+								},
+								{
+									"anchor":	"alimentation",
+									"title":	"Alimentation",
+									"subtitle":	"",
+									"icon":		"noun_20649_cc_40x40.png",
+									"date":		"17 février 2015",
+									"hour":		"10h34",
+									"show":		false,
+									"image":	[
+												],
+									"text":		[
+													"Accédez librement à des jeux de données d'usage professionnel et directement opérationnels pour vos activités de recherche, développement ou vente. Nous constituons ces jeux sur la base de données libres institutionnelles ou communautaires.",
+													"Contactez-nous pour toute assistance : nous sommes les meilleurs spécialistes des données que nous diffusons !"
+												]													
+								},
+								{
+									"anchor":	"meteo",
+									"title":	"Météorologie",
+									"subtitle":	"",
+									"icon":		"noun_8673_40x40.png",
+									"date":		"17 février 2015",
+									"hour":		"10h34",
+									"show":		false,
+									"image":	[
+												],
+									"text":		[
+													"Accédez librement à des jeux de données d'usage professionnel et directement opérationnels pour vos activités de recherche, développement ou vente. Nous constituons ces jeux sur la base de données libres institutionnelles ou communautaires.",
+													"Contactez-nous pour toute assistance : nous sommes les meilleurs spécialistes des données que nous diffusons !"
+												]													
+								}
+							]
+		}
 	}
 }

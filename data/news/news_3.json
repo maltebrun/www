@@ -3,11 +3,11 @@
 	"version": "0.0.1",
 	"comments": "",
 	"values":  {
-		"title":		"Le Pape a une maitresse cachée.",
-		"date":			"10 janvier 2014",
+		"title":		"Une Base Adresse Nationale collaborative",
+		"date":			"14 novembre 2014",
 		"hour":			"08h44",
-		"text":			"Aliquam elementum, orci at elementum molestie, dolor ipsum blandit tellus, non viverra nulla nunc ut massa. Donec at lacus vitae lectus lacinia lobortis. Integer rutrum orci in dolor fermentum tristique. Curabitur facilisis diam eu magna hendrerit maximus at vitae libero.",
-		"url":			"http://www.vatican.org",
-		"link":			"Vatican"
+		"text":			"La Poste, l’IGN et la DGFIP mutualisent leurs données adresse pour donner naissance à une Base Adresse Nationale (BAN) dont la mise à jour sera collaborative sur le modèle d'OpenStreetMap. Forte de son expérience de l'adresse, MalteBrun suit le projet dans le but de l'enrichir de données qualifiantes et d'aider à sa réutilisation.",
+		"url":			"http://www.ign.fr/institut/actus/acteurs-publics-societe-civile-sassocient-constitution-dune-base-adresse-nationale-ban",
+		"link":			"www.ign.fr"
 	}
 }

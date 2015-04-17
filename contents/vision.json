@@ -2,5 +2,46 @@
 	"name": "generic definitions",
 	"version": "0.0.1",
 	"values": {
+		"hangs":		{"type": "libel", "storage": "file", "language": "text", "source": "vision.json", "data": ""				},
+		"articles":	{"type": "articles", "storage": "inline", "language": "json", "source": "", "data": 
+							[
+								{
+									"anchor":	"data",
+									"title":	"La donnée",
+									"subtitle":	"",
+									"icon":		"",
+									"date":		"13 mars 2015",
+									"hour":		"15h46",
+									"image":	[
+													{"source": "", "top": true, "left": true},
+													{"source": "", "top": false, "left": false}
+												],
+									"text":		[
+													"Nous ne commercialisons pas de donnée, ni en propre ni en tant que revendeur. Nous proposons des prestations de conseil, de recueil, de traitement, d'analyse et d'intégration autour de la donnée publique ou privée. Notre vocation est d'aider les entreprises et les organisations à tirer le meilleur profit des données publiques ou privées auxquelles elles peuvent accéder.",
+													"Nous identifions les sources de données brutes, nous les extrayons et les transformons en données structurées. Contrairement aux autres acteurs du métier, nous ne livrons pas ces données sous forme de flux ou de visualisation, mais dans leur intégralité et en les accompagnant de toute notre expertise pour leur utilisation.",
+													"En améliorant l'attractivité des données publiques et libres nous participons à un enjeu économique : celui d'une profitabilité commune de ces données sur laquelle nous basons notre offre de conseils et de services."
+												]
+								},
+								{
+									"anchor":	"tools",
+									"title":	"Les outils",
+									"subtitle":	"",
+									"icon":		"",
+									"date":		"13 mars 2015",
+									"hour":		"15h46",
+									"image":	[
+												],
+									"text":		[
+													"MalteBrun a fait le choix d'utiliser et de promouvoir le logiciel libre. Cette position est motivée par les avantages que ces outils procurent : <ul><li>leur richesse fonctionnelle permise par des choix de développement non contraints par des impératifs de rentabilité,</li><li>un avantage économique de par leur gratuité qui est répercutée sur le co&ucirc;t de nos prestations,</li><li>des formats de fichier standardisés et ouverts, qui évitent des transformations complexes et co&ucirc;teuses,</li><li>la fiabilité et la robustesse qui résultent des relations actives entre des communautés larges de développeurs et d'utilisateurs,</li><li>la pérennité d&ucirc;e à l'indépendance vis à vis de tout éditeur.</li></ul>",
+													"En nous faisant défendeurs des logiciels libres et open source, nous participons à leur bonne réputation et à leur diffusion pour le bénéfice de tout l'écosystème dont notre société fait partie.",
+													"Nous utilisons et apprécions tout particulièrement : <ul><li><strong>R</strong> : logiciel de calcul statistique aux possibilités très étendues.</li><li><strong>PostgreSQL</strong> : un système de gestion de bases de données robuste et performant, sachant gérer des bases de très grande volumétrie.</li><li><strong>PostGIS</strong> : l'extension de PostgreSQL pour la gestion des données spatialisées.</li><li><strong>GRASS 7</strong> : le système d'information géographique initié par l'US Army. Open source, modulaire et riche de plusieurs milliers de fonctions en analyse spatiale et cartographie.</li><li><strong>QGis</strong> : un logiciel de création de cartes géographiques aux fonctionnalités riches.</li><li><strong>Python</strong> : un langage de programmation à la syntaxe claire et concise, disposant de nombreuses bibliothèques notamment en statistiques et analyse des données.</li><li><strong>MongoDB</strong> : une base de données non relationnelle pour le stockage de documents non structurés.</li><li><strong>Node.js</strong> : Un merveilleux petit outil évolutif spécialisé dans les technologies du web. Entre autres usages, c'est notre serveur web.</li></ul>"
+												],
+									"alt":		[
+													"Ces solutions sont aussi bonnes que les produits du marché car elles ont pu obtenir, avec leur modèle et du temps, une base suffisante de testeurs et d’utilisateurs pour couvrir l’ensemble des besoins fonctionnels attendus de façon standard.",
+													"http://www.withoutmodel.com/frederic-charles/open-source-moteur-open-data/"
+												]
+								}
+							]
+		}
 	}
 }

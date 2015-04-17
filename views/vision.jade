@@ -1,29 +1,10 @@
 extends global
 block header
-	include header
-	//include topbar
-	//include menubar
-	//include breadcrumb
-block main
+	include inc/header
 	main.container
-		include breadcrumb
-		.row
-			.col-xs-12 Accroche
-			p Nous ne commercialisons pas de donnée, ni en propre ni en tant que revendeur. Nous proposons des prestations de conseil, de recueil, de traitement, d'analyse et d'intégration autour de la donnée publique ou privée. Notre vocation est d'aider les entreprises et les organisations à tirer le meilleur profit des données publiques ou privées auxquelles ils peuvent accéder.
-			p Nous identifions les sources de données brutes, nous les extrayons et les transformons en données structurées. Contrairement aux autres acteurs du métier, nous ne livrons pas ces données sous forme de flux ou de visualisation, mais dans leur intégralité et en les accompagnant de toute notre expertise pour leur utilisation.
-		.row
-			.col-md-8 Second niveau avec 8 colonnes
-				.row
-					.col-xs-12.col-sm-4.col-sm-4.col-lg-4 Theme 1
-					.col-xs-12.col-sm-4.col-sm-4.col-lg-4 Theme 2
-					.col-xs-12.col-sm-4.col-sm-4.col-lg-4 Theme 3
-			.col-md-4 Second niveau avec 4 colonnes
-				.row
-					.col-lg-12 News 1
-					.col-lg-12 News 2
-					.col-lg-12 News 3
-					.col-lg-12 News 4
-		//aside.col-xs-6.col-sm-3 Actualités
+		.jumbotron
+			h3 #{hangs.text}
+		include generic/companie
 block footer
 	footer.container
-		include copyright
+		include inc/copyright

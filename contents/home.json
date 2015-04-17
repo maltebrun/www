@@ -2,16 +2,73 @@
 	"name": "home definitions",
 	"version": "0.0.1",
 	"values":  {
-		"hangs":		{"type": "libel", "storage": "file", "language": "text", "source": "hangs.json", "data": ""				},
+		"hangs":		{"type": "libel", "storage": "file", "language": "text", "source": "home.json", "data": ""				},
 		"article_1":	{"type": "article", "storage": "file", "language": "text", "source": "article_1.json", "data": ""		},
 		"thumbnails":	{"type": "thumbnails", "storage": "inline", "language": "json", "source": "", "data":
 							[
-								{"title": "Données",		"url": "", "link": "En savoir plus...", "icon": "DAF Tipper Container Truck.png", "text": "Accédez librement à des jeux de données d'usage professionnel et directement opérationnels pour vos activités de recherche, développement ou vente. Nous constituons ces jeux sur la base de données libres institutionnelles ou communautaires."},
-								{"title": "Open data",		"url": "", "link": "En savoir plus...", "icon": "Ford Zodiac MkIV.png", "text": "Identifiez parmi les données publiques ouvertes celles qui contribueront à une meilleure connaissance de vos clients, de votre marché, de vos partenaires et de votre concurrence. "},
-								{"title": "Recueil",		"url": "", "link": "En savoir plus...", "icon": "Hatra Tractor Shovel.png", "text": "L'information dont vous avez besoin se trouve sur le web ! Nous nous chargeons d'en automatiser la lecture et de la structurer dans un format adapté à vos propres outils."},
-								{"title": "Analyses",		"url": "", "link": "En savoir plus...", "icon": "Jumbo Crane.png", "text": "Sed interdum pretium dui, sed pulvinar metus tristique et. Aliquam sed dui mi. Nulla est orci, fringilla ac lacus sit amet, sagittis lacinia felis. Nulla sit amet urna in sem luctus molestie et nec lectus. Aliquam volutpat mi sed elementum varius."},
-								{"title": "Geo",			"url": "", "link": "En savoir plus...", "icon": "Safari Land Rover.png", "text": "La dimension géographique des données nécessite d'utiliser des outils spécifiques et un savoir-faire adapté à leur analyse. Nous apportons des solutions efficaces et précises à vos projets, dans les domaines du géomarketing, de l'optimisation de secteurs, de l'analyse spatiale de données médicales, politiques, sociales ou autres."},
-								{"title": "Traitements",	"url": "", "link": "En savoir plus...", "icon": "Mercedes Benz Ambulance.png", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae neque non felis dignissim sagittis ac vehicula est. Quisque nec enim ut est convallis ullamcorper. Etiam eleifend mauris arcu, vitae placerat sem sollicitudin in. Nulla sit amet urna in sem luctus molestie et nec lectus."}
+								{
+									"title":	"Données",
+									"url":		"data",
+									"link":		"En savoir plus...",
+									"icon":		"DAF Tipper Container Truck.png",
+									"text":		[
+													"Accédez librement à des jeux de données d'usage professionnel et directement opérationnels pour vos activités de recherche, développement ou vente. Nous constituons ces jeux sur la base de données libres institutionnelles ou communautaires.",
+													"Contactez-nous pour toute assistance : nous sommes les meilleurs spécialistes des données que nous diffusons !"
+												]													
+								},
+								{
+									"title":	"Open data",
+									"url":		"/activities/opendata",
+									"link":		"En savoir plus...",
+									"icon":		"Ford Zodiac MkIV.png",
+									"text":		[
+													"L’Etat a pour volonté de faciliter la réutilisation la plus large possible des informations publiques détenues par ses services.",
+													"Identifiez parmi ces données celles qui contribueront au succès de votre projet.",
+													"Nous maintenons un recensement des sources disponibles, dont nous surveillons la qualité et l'exhaustivité. Nous pouvons apporter ainsi le meilleur conseil pour la meilleure utilisation."
+												]													
+								},
+								{
+									"title":	"Recueil",
+									"url":		"/activities/scraping",
+									"link":		"En savoir plus...",
+									"icon":		"Hatra Tractor Shovel.png",
+									"text":		[
+													"L'information dont vous avez besoin se trouve sur le web ! Mais elle est trop éparpillée et les processus de recueil manuel sont chronophages et sources d'erreurs.",
+													"Nous nous chargeons d'en automatiser la lecture en provenance d'une ou plusieurs sources, puis de la structurer dans un format adapté à vos propres outils. Nos développements sur mesure s'adaptent à toute complexité."
+												]													
+								},
+								{
+									"title":	"Traitements",
+									"url":		"activities/processing",
+									"link":		"En savoir plus...",
+									"icon":		"Mercedes Benz Ambulance.png",
+									"text":		[
+													"Le traitement des données comprend toutes les opérations destinées à en optimiser la qualité et à les enrichir en leur apportant toute la valeur ajoutée possible.",
+													"La détection des doublons, la normalisation des adresses postales, le rapprochement de bases sont par exemple de forts leviers d'optimisation des co&ucirc;ts et d'amélioration de la performance des analyses."
+												]													
+								},
+								{
+									"title":	"Analyses",
+									"url":		"activities/analytic",
+									"link":		"En savoir plus...",
+									"icon":		"Jumbo Crane.png",
+									"text":		[
+													"Vous disposez d'un capital de données, vous voulez savoir ce qu'elles peuvent vous apprendre.",
+													"Vous voulez prévoir, anticiper, trouver les leviers, optimiser, cibler, ...",
+													"Nous utilisons toutes les techniques d'analyse statistique et d'optimisation, des grands classiques aux plus modernes.",
+													"Nous donnons du sens à nos données, nous saurons donner du sens aux votres !"
+												]													
+								},
+								{
+									"title":	"Geo",
+									"url":		"activities/geo",
+									"link":		"En savoir plus...",
+									"icon":		"Safari Land Rover.png",
+									"text":		[
+													"La dimension géographique des données nécessite d'utiliser des outils spécifiques et un savoir-faire adapté à leur analyse. Nous apportons des solutions efficaces et précises à vos projets, dans les domaines du géomarketing, de l'optimisation de secteurs et de l'analyse spatiale.",
+													"Notre expérience et notre passion pour la cartographie est la garantie d'une restitution lisible et pertinente de vos données sur des cartes de qualité."
+												]
+								}
 							]
 		},
 		"news":			{"type": "news", "storage": "directory", "language": "json", "source": "news", "data": ""				}

@@ -1,6 +1,42 @@
 {
-	"name": "generic definitions",
+	"name": "ilotsmb definitions",
 	"version": "0.0.1",
 	"values": {
+		"articles":	{"type": "articles", "storage": "inline", "language": "json", "source": "", "data": 
+							[
+								{
+									"anchor":	"ilotsmb",
+									"title":	"Les &icirc;lots MalteBrun",
+									"subtitle":	"",
+									"icon":		"",
+									"date":		"07 mars 2015",
+									"hour":		"18h03",
+									"image":	[
+													{"source": "", "top": true, "left": true},
+													{"source": "", "top": false, "left": false}
+												],
+									"text":		[
+													"Le référentiel géographique des &icirc;lots MalteBrun est un outil multi-usages de grande précision. L'&icirc;lot correspond en zone urbaine au paté de maison. C'est une brique de base essentielle tant pour l'étude que pour la réalisation et l'exploitation de projets à dimension territoriale.",
+													"Tout en étant adaptés à un usage cartographique, leur finalité est d'abord opérationnelle : <ul><li>ils sont <em>qualifiés</em> : par des données socio-démographiques, population, &acirc;ge, revenus, ..., par des indices de proximité, d'accessibilité et d'attractivité commerciale et touristique, et par leur environnement géophysique.</li><li>ils sont <em>référencés</em> : ils disposent d'un identifiant stable dans le temps et utilisé dans toute correspondance avec d'autres référentiels : zonages institutionnels, bases d'adresses, ... </li><li>ils sont <em>agrégeables</em> : leur géométrie de jonction est sans recouvrement ni interstice pour &ecirc;tre manipulables dans les opérations de sectorisation.</li><li>ils sont <em>connectés</em> : entre eux par une relation d'adjacence pour faciliter la sectorisation automatique et avec leurs façades constitutives pour optimiser le géocodage des adresses postales.</li></ul>",
+													"Ces qualités destinent le référentiel &icirc;lots MalteBrun à s'intégrer dans tous les projets de géomarketing, comme dans les études d'urbanisme, le ciblage en communication directe, la distribution, la collecte et dans toute activité où la connaissance précise du territoire est nécessaire.",
+													"Pour des raisons techniques, le référentiel &icirc;lots MalteBrun n'est pas encore disponible en téléchargement direct. Contactez-nous pour l'obtenir."
+												]													
+								},
+								{
+									"anchor":	"ilotmethode",
+									"title":	"Méthodologie de constitution",
+									"subtitle":	"",
+									"icon":		"",
+									"date":		"07 mars 2015",
+									"hour":		"18h03",
+									"image":	[
+												],
+									"text":		[
+													"Le référentiel &icirc;lots MalteBrun est constitué à partir d'un &icirc;lotage des données de voirie OpenStreetMap, retravaillé pour obtenir des &icirc;lots pertinents dans leur réalité sociologique. Les valeurs socio-démographiques sont calculées par projection des données de l'INSEE, les autres indices sont le résultat d'algorithmes et de modélisations tels que les calculs d'isochrones et les modèles gravitaires.",
+													"Il est régulièrement mis à jour et correctement versionné : des tables de correspondance permettent une actualisation aisée du référentiel lorsqu'il est intégré dans le système d'information métier de l'entreprise."
+												]													
+								}
+							]
+		}
 	}
 }

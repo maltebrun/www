@@ -2,5 +2,24 @@
 	"name": "generic definitions",
 	"version": "0.0.1",
 	"values": {
+		"articles":	{"type": "articles", "storage": "inline", "language": "json", "source": "", "data": 
+							[
+								{
+									"anchor":	"catalog",
+									"title":	"Catalogue des données en téléchargement libre",
+									"subtitle":	"",
+									"icon":		"",
+									"date":		"07 mars 2015",
+									"hour":		"18h03",
+									"image":	[
+													{"source": "", "top": true, "left": true},
+													{"source": "", "top": false, "left": false}
+												],
+									"text":		[
+													"Pour des raisons techniques, notre catalogue de données n'est pas encore disponible en téléchargement direct. Contactez-nous pour l'obtenir."
+												]													
+								}
+							]
+		}
 	}
 }

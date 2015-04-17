@@ -1,6 +1,39 @@
 {
-	"name": "generic definitions",
+	"name": "gsagss definitions",
 	"version": "0.0.1",
 	"values": {
-	}
+		"articles":	{"type": "articles", "storage": "inline", "language": "json", "source": "", "data": 
+							[
+								{
+									"anchor":	"gsagss",
+									"title":	"Le référentiel MalteBrun de la grande distribution",
+									"subtitle":	"",
+									"icon":		"",
+									"date":		"07 mars 2015",
+									"hour":		"18h03",
+									"image":	[
+													{"source": "", "top": true, "left": true},
+													{"source": "", "top": false, "left": false}
+												],
+									"text":		[
+													"Le référentiel géographique MalteBrun de la grande distribution recense l'ensemble des grandes surfaces alimentaires et spécialisées du territoire français. Les points de vente sont géocodés et la base est enrichie de données attributaires (superficie, services, ...) et intégrée dans le référentiel &icirc;lots MalteBrun pour obtenir le profil socio-démographique et concurrentiel de la zone de chalandise.",
+													"Pour des raisons techniques, le référentiel  MalteBrun n'est pas encore disponible en téléchargement direct. Contactez-nous pour l'obtenir."
+												]													
+								},
+								{
+									"anchor":	"gsagssmethode",
+									"title":	"Méthodologie de constitution",
+									"subtitle":	"",
+									"icon":		"",
+									"date":		"07 mars 2015",
+									"hour":		"18h03",
+									"image":	[
+												],
+									"text":		[
+													"Le référentiel grande distribution est constitué à partir d'informations recensées sur le Web et de bases de données institutionnelles. L'ensemble de ces données est filtré, compilé et structuré par nos soins.",
+													"Il est régulièrement actualisé par une surveillance des sources de données. Les identifiants sont stables d'une version à l'autre, ce qui garantit une mise à jour aisée lorsque le référentiel est inclus dans le système d'information de l'entreprise."
+												]													
+								}
+							]
+		}	}
 }

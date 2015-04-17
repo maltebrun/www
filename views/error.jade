@@ -1,6 +1,12 @@
-extends layout
-
-block content
-  h1= message
-  h2= error.status
-  pre #{error.stack}
+extends global
+//bug si on decommente la ligne suivante : 
+//block header
+	include inc/header
+block main
+	main.container
+		h1= message
+		h2= error.status
+		pre #{error.stack}
+block footer
+	footer.container
+		include inc/copyright

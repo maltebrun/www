@@ -1,13 +1,13 @@
 {
-	"name": "news 1",
+	"name": "news 7",
 	"version": "0.0.1",
 	"comments": "",
 	"values":  {
-		"title":		"Nadine Morano n'est plus raciste.",
-		"date":			"1 avril 2014",
-		"hour":			"00h01",
-		"text":			"Sed fermentum porta eros eget pellentesque. Suspendisse nunc neque, rhoncus in sapien ut, aliquet consectetur ipsum. Suspendisse enim dui, lobortis vel dignissim quis, mattis vel magna. Aliquam ornare venenatis felis at porta. Ut est massa, tempus a quam nec, pellentesque laoreet sapien.",
-		"url":			"http://www.nadinemorano.fr",
-		"link":			"Nadine.fr"
+		"title":		"Sortie de GRASS version 7",
+		"date":			"22 février 2015",
+		"hour":			"00h00",
+		"text":			"Six années de développement ont été nécessaires pour livrer la version 7 de GRASS, le SIG open source initié par l'armée américaine en 1982. Principales nouveautés : le traitement et l'analyse des données spatio-temporelles (4D), la refonte du code et du format des données spatiales pour un gain majeur en vitesse de traitement, une nouvelle interface utilisateur et le choix du langage Python pour le développement de modules.",
+		"url":			"http://grass.osgeo.org/news/42/15/GRASS-GIS-7-0-0/",
+		"link":			"grass.osgeo.org"
 	}
 }

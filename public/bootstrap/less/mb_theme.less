@@ -111,11 +111,81 @@ a {
 .thumbnail {
   border: 1px solid @mb-color-default-border;
   border-radius: @mb-radius-default;
-  .activitie {
+  &.activitie {
     height: @thumbnail-message-height;
-    min-height: @thumbnail-message-height;
     .message {
       text-align: justify;
+      text-indent: @thumbnail-message-indent;
+      margin-left: @thumbnail-message-margin-left;
+      margin-right: @thumbnail-message-margin-right;
+    }
+  }
+}
+
+// Articles
+
+.article {
+  border: @article-border-width solid @mb-color-default-border;
+  border-radius: @mb-radius-default;
+  .message {
+    text-align: justify;
+    ul {
+      list-style-type: square;
+      list-style-position: inside;
+      li {
+        padding-left: 10px;
+      }
+    }
+  }
+  &.domain {
+    height: auto;
+    margin-bottom: @article-margin-bottom;
+    .caption {
+      //background: url("/img/pixel-color-logo-marron.png") repeat-x left;
+      //background-image: linear-gradient(to right, white, @mb-color-logo-sable);
+      background-image: url("/img/1x3-color-logo-marron.png");
+      background-repeat: repeat-x;
+      background-position: left;
+      h4 span {
+        background-color: @mb-color-text-background;
+        padding-right: @article-caption-padding-right;
+      }
+    }
+    .message {
+      text-indent: @article-message-indent;
+      margin-top: @article-message-margin-top;
+      margin-bottom: @article-message-margin-bottom;
+      margin-left: @article-message-margin-left;
+      margin-right: @article-message-margin-right;
+    }
+  }
+  &.activitie {
+    height: auto;
+    margin-bottom: @article-margin-bottom + 30px;
+    .caption {
+      color: @mb-color-logo-marron;
+      //background: url("/img/pixel-color-logo-marron.png") repeat-x left;
+      //background-image: linear-gradient(to right, white, @mb-color-logo-sable);
+      background-image: url("/img/pixel-color-logo-marron.png");
+      background-repeat: repeat-x;
+      background-position: left;
+      h4 span {
+        background-color: @mb-color-text-background;
+        padding-right: @article-caption-padding-right;
+      }
+    }
+    .message {
+      //text-indent: @article-message-indent;
+      margin-top: @article-message-margin-top;
+      margin-bottom: @article-message-margin-bottom;
+      margin-left: @article-message-margin-left;
+      margin-right: @article-message-margin-right;
+      padding-top: 20px;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-bottom: 20px;
+      border: 1px solid @mb-color-default-border;
+      border-radius: @mb-radius-default;
     }
   }
 }
@@ -370,12 +440,15 @@ header .contact .mail a {
 // Overrride jumbotron
 
 .container .jumbotron {
-  padding-top: 5px;
   background-color: @mb-color-text-background;
   border: 1px solid @mb-color-default-border;
   border-radius: @mb-radius-default;
+  h3, .h3 {
+    //valeurs à tranformer en résultat de calcul
+    margin-top: -20px;
+    margin-bottom: -10px;
+  }
 }
-
 
 // Alternate navbars
 // --------------------------------------------------
