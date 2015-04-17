@@ -1,0 +1,58 @@
+{
+	"name": "generic definitions",
+	"version": "0.0.1",
+	"values": {
+		"hangs":		{"type": "libel", "storage": "file", "language": "text", "source": "processing.json", "data": ""				},
+		"articles":	{"type": "articles", "storage": "inline", "language": "json", "source": "", "data": 
+							[
+								{
+									"anchor":	"datacleaning",
+									"title":	"Nettoyage des données",
+									"subtitle":	"",
+									"icon":		"",
+									"date":		"03 mars 2015",
+									"hour":		"13h56",
+									"image":	[
+													{"source": "", "top": true, "left": true},
+													{"source": "", "top": false, "left": false}
+												],
+									"text":		[
+													"Le travail de nettoyage des données est un préalable conditionnant le succès du processus d'analyse des données. Il s'agit de détecter les valeurs aberrantes, manquantes ou mal formatées. Les filtres nécessaires sont construits sur la base de règles réalistes données à priori ou établies par une pré-analyse normatrice. Nous mettons en &oelig;uvre des techniques correctrices basées sur des régressions multiples et soucieuses de préserver au maximum l'information existante.",
+													"Nous détectons et corrigeons ainsi les erreurs de saisie, les enregistrements fantaisistes, les doublons, les pannes de capteur, ..."
+												]													
+								},
+								{
+									"anchor":	"fileprocess",
+									"title":	"Traitement de fichiers",
+									"subtitle":	"",
+									"icon":		"",
+									"date":		"03 mars 2015",
+									"hour":		"13h56",
+									"image":	[
+												],
+									"text":		[
+													"Nous assurons tous traitements lourds et manipulations sur fichiers ou tables de données, tels que jointure de fichiers, fusion et consolidation multi-fichiers, reformatage, recodification, calcul de scores, ....",
+													"Nos process sont livrables et intégrables dans les chaines de production de l'entreprise."
+												]													
+								},
+								{
+									"anchor":	"enhancement",
+									"title":	"Enrichissement",
+									"subtitle":	"",
+									"icon":		"",
+									"date":		"03 mars 2015",
+									"hour":		"13h56",
+									"image":	[
+												],
+									"text":		[
+													"La qualité des données ne se limite pas aux étapes de nettoyage et de réorganisation précitées, elle bénéficie aussi de techniques d'enrichissement élaborées pour faciliter la prise de décisions stratégiques.",
+													"En fonction des données en présence et des besoins, les méthodes d'enrichissement sont multiples mais souvent simples de mise en &oelig;uvre et la valeur acquise dépasse de loin l'effort requis.",
+													"Parmi les plus classiques, citons le scoring prénom, qui permet d'estimer l'&acirc;ge et le sexe en fonction du prénom, et le géocodage, qui détermine une position géographique en fonction de l'adresse postale, et ouvre un large champ de possibilités d'enrichissement de données par projection des bases géographiques MalteBrun qui contiennent de nombreux indicateurs socio-démographiques, comportementaux et d'affinité politique.",
+													"Dans les ventes et le marketing direct, une telle approche permet une communication mieux ciblée, ce qui entraine de meilleurs taux de réponse, une réduction des co&ucirc;ts et une plus grande éco-responsabilité."
+
+												]													
+								}
+							]
+		}
+	}
+}
