@@ -1,0 +1,17 @@
+{
+	"name": "hangs",
+	"version": "0.0.1",
+	"comments": "",
+	"values":  {
+		"text":			"Open Data et Open Source : pour une offre focalisée sur l'étude, l'analyse, le savoir et l'information.",
+		"subtext":		""
+	},
+	"altvalues1":  {
+		"text":			".",
+		"subtext":		""
+	},
+	"altvalues2":  {
+		"text":			"",
+		"subtext":		""
+	}
+}

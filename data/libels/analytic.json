@@ -1,0 +1,17 @@
+{
+	"name": "hangs",
+	"version": "0.0.1",
+	"comments": "",
+	"values":  {
+		"text":			"Notre volonté : choisir l'outil statistique adéquat pour transformer les données en une information synthétique et pertinente, nécessaire à la conduite stratégique et opérationnelle.",
+		"subtext":		""
+	},
+	"altvalues1":  {
+		"text":			"La qualité et la récence de données opérationnelles pour des prises de décision rapides et pertinentes.",
+		"subtext":		""
+	},
+	"altvalues2":  {
+		"text":			"Our role is to utilize proper statistical tools and methods to provide simplified and understandable information to our clients.",
+		"subtext":		"http://www.statspecialist.com/"
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"name": "hangs",
+	"version": "0.0.1",
+	"comments": "",
+	"values":  {
+		"text":			"Nettoyer, consolider et enrichir vos données pour les préparer à des analyses pertinentes et efficaces.",
+		"subtext":		""
+	},
+	"altvalues1":  {
+		"text":			"La qualité et la récence de données opérationnelles pour des prises de décision rapides et pertinentes.",
+		"subtext":		""
+	},
+	"altvalues2":  {
+		"text":			"",
+		"subtext":		""
+	}
+}

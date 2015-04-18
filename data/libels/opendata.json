@@ -1,0 +1,17 @@
+{
+	"name": "hangs",
+	"version": "0.0.1",
+	"comments": "",
+	"values":  {
+		"text":			"L'Open Data est une opportunité nouvelle pour les entreprises et les organismes d'accéder à une information valorisante. Nous la rendons disponible et exploitable.",
+		"subtext":		""
+	},
+	"altvalues1":  {
+		"text":			".",
+		"subtext":		""
+	},
+	"altvalues2":  {
+		"text":			"",
+		"subtext":		""
+	}
+}

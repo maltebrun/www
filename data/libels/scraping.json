@@ -1,0 +1,17 @@
+{
+	"name": "hangs",
+	"version": "0.0.1",
+	"comments": "",
+	"values":  {
+		"text":			"Exploitez avec efficacité et profit les mines de données que recèle le web : une richesse d'information à l'usage de tous décideurs, journalistes, chercheurs de tous domaines.",
+		"subtext":		""
+	},
+	"altvalues1":  {
+		"text":			".",
+		"subtext":		""
+	},
+	"altvalues2":  {
+		"text":			"",
+		"subtext":		""
+	}
+}
