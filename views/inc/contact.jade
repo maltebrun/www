@@ -1,0 +1,29 @@
+span.head Nous contacter
+.list
+	.item
+		.contact-form
+			form#contact-form(action="/" method="post" target="hiddenFrame" onload="alert('quoiquinia ?')")
+				.form-group
+					label(for="Form_A_Field_1") Civilité :
+					select.form-control#Form_A_Field_1(name="Form_A_Field_1" required=true)
+						option(value="1" selected)
+						option(value="2") M
+						option(value="3") Mme
+					label(for="Form_A_Field_2") Nom :
+					input.form-control#Form_A_Field_2(name="Form_A_Field_2" type="text" placeholder="Nom")
+					label(for="Form_A_Field_3") Prénom :
+					input.form-control#Form_A_Field_3(name="Form_A_Field_3" type="text" placeholder="Prénom")
+					label(for="Form_A_Field_4") Société :
+					input.form-control#Form_A_Field_4(name="Form_A_Field_4" type="text" placeholder="Société")
+					label(for="Form_A_Field_5") Adresse mail :
+					input.form-control#Form_A_Field_5(name="Form_A_Field_5" type="email" placeholder="Votre email")
+					label(for="Form_A_Field_6") Votre question :
+					textarea#Form_A_Field_6(name="Form_A_Field_6" placeholder="")
+					.checkbox
+						//-http://stackoverflow.com/questions/11817469/jade-doesnt-render-checkboxes-text
+						label(for="Form_A_Field_7")
+							input#Form_A_Field_7(name="Form_A_Field_7" type="checkbox")
+							= "Vous acceptez de recevoir nos informations mensuelles par mail"
+					//-button.btn.btn-default(onClick="(function (f) {f.submit(); f.reset(); return false;}) (document.getElementById('contact-form'))") Envoyer
+					button.btn.btn-default(onClick="submitForm()") Envoyer
+					//-button.btn.btn-default(type="submit") Envoyer

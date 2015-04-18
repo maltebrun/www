@@ -1,0 +1,51 @@
+extends global
+block header
+	include inc/header
+block main
+	main.container
+		.jumbotron
+			h3 #{hangs.text}
+		.row
+			.col-xs-12.col-sm-12.col-md-12.col-lg-12
+				.row.articles
+					- each item in articles
+						- if (item.show)
+							.col-xs-12.col-sm-12.col-md-12.col-lg-12(id=item.anchor)
+								.article.domain
+									.row
+										.hidden-xs.col-sm-1.col-md-1.col-lg-1
+											img(src="/img/" + item.icon)
+										.col-xs-12.col-sm-11.col-md-11.col-lg-11
+											.caption
+												h4
+													span #{item.title}
+										.col-xs-12.col-sm-12.col-md-12.col-lg-12
+											.message
+												- each paragraph in item.text
+													p !{paragraph}
+block footer
+	footer.container
+		include inc/copyright
+block script
+	script.
+		function positionY(eId) {
+			var e = document.getElementById(eId);
+			var y = e.offsetTop;
+			var node = e;
+			while (node.offsetParent && node.offsetParent != document.body) {
+				node = node.offsetParent;
+				y += node.offsetTop;
+			} return y;
+		};
+	script.
+		function current_domain() {
+			return "#{currentitem.anchor}";
+		}
+	script.
+		window.onload = function () {
+			var target = current_domain();
+			var u = document.getElementById("mb_underfix");
+			var h = u.offsetHeight;
+			window.scrollTo(0, positionY(target) - h + 1);
+			//animate(document.body, "scrollTop", "", 0, target.offsetTop, 2000, true);
+		};

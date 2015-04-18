@@ -1,0 +1,27 @@
+extends global
+block header
+	include inc/header
+	//include topbar
+	//include menubar
+	//include breadcrumb
+block main
+	main.container
+		include inc/breadcrumb
+		.row
+			.col-xs-12 Accroche
+		.row
+			.col-md-8 Second niveau avec 8 colonnes
+				.row
+					.col-xs-12.col-sm-4.col-sm-4.col-lg-4 Theme 1
+					.col-xs-12.col-sm-4.col-sm-4.col-lg-4 Theme 2
+					.col-xs-12.col-sm-4.col-sm-4.col-lg-4 Theme 3
+			.col-md-4 Second niveau avec 4 colonnes
+				.row
+					.col-lg-12 News 1
+					.col-lg-12 News 2
+					.col-lg-12 News 3
+					.col-lg-12 News 4
+		//aside.col-xs-6.col-sm-3 Actualités
+block footer
+	footer.container
+		include inc/copyright

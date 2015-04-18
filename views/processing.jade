@@ -1,0 +1,10 @@
+extends global
+block header
+	include inc/header
+	main.container
+		.jumbotron
+			h3 #{hangs.text}
+		include generic/activities
+block footer
+	footer.container
+		include inc/copyright

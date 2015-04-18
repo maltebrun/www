@@ -1,0 +1,9 @@
+.row
+	.col-xs-12
+		ol.breadcrumb
+			- each item in breadcrumb
+				- if (item.active)
+					li.active #{item.title}
+				- else
+					li
+						a(href="#{item.url}") #{item.title}

@@ -1,0 +1,20 @@
+.row
+	.col-xs-12.col-sm-10.col-md-10.col-lg-10
+		.row.articles
+			- each item in articles
+				.col-xs-12.col-sm-12.col-md-12.col-lg-12(id=item.anchor)
+					.article.activitie
+						.row
+							.hidden-xs.hidden-sm.hidden-md.hidden-lg
+								img(src="/img/" + item.icon)
+							.col-xs-12.col-sm-12.col-md-12.col-lg-12
+								.caption
+									h4
+										span !{item.title}
+							.col-xs-12.col-sm-12.col-md-12.col-lg-12
+								.message
+									- each paragraph in item.text
+										p !{paragraph}
+	aside.hidden-xs.col-sm-2.col-md-2.col-lg-2.widgets
+		.contact
+			include ../inc/contact

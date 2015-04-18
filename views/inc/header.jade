@@ -1,0 +1,49 @@
+header.mb_fixheader(role="header")
+	.container
+		.row
+			.col-lg-3.col-md-3.col-sm-3.col-xs-3
+				a.logo(href='http://www.maltebrun.com/')
+			.col-lg-9.col-md-9.col-sm-9.col-xs-9
+				.contact.pull-right
+					.mail
+						a(href='http://www.maltebrun.com/contact-us/', title='Nous répondons à vos questions') contact@maltebrun.com
+					.phone
+						span 01&nbsp;46&nbsp;71&nbsp;42&nbsp;86
+		nav.navbar.navbar-maltebrun
+			.navbar-header
+				button(type="button" data-toggle="collapse" data-target="#navbar-collapse-1").navbar-toggle.collapsed 
+					span.sr-only Toggle navigation
+					span.icon-bar
+					span.icon-bar
+					span.icon-bar
+			.collapse.navbar-collapse(id="navbar-collapse-1")
+				ul.nav.navbar-nav(id="menu-navigation-menu")
+					- each item in mainmenu
+						- if (item.show)
+							- if (item.dropdown)
+								li.dropdown(class=item.active?"active":"")
+									//-a.dropdown-toggle(data-toggle="dropdown", href="#{item.url}") #{item.title}
+									a.dropdown-toggle(data-toggle="dropdown", href="#") !{item.title}
+										span.caret
+										span.hidden-xs.hidden-sm.hidden-md
+											br
+											small !{item.subtitle}
+									ul.dropdown-menu
+										- each subitem in item.subitems
+											- if (subitem.show)
+												li
+													//-a(href="#{subitem.url}" + "#" + "#{subitem.anchor}") #{subitem.title}
+													a(href="#{subitem.url}") !{subitem.title}
+														span.hidden-xs.hidden-sm.hidden-md
+															br
+															small !{subitem.subtitle}
+							- else
+								li(class=item.active?"active":"")
+									//-a(href="#{item.url}" + "#" + "#{item.anchor}") #{item.title}
+									a(href="#{item.url}") !{item.title}
+										span.hidden-xs.hidden-sm.hidden-md
+											br
+											small !{item.subtitle}
+	.container
+		include breadcrumb
+aside.mb_underfix#mb_underfix
