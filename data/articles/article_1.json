@@ -1,0 +1,12 @@
+{
+	"name": "article 1",
+	"version": "0.0.1",
+	"comments": "",
+	"values":  {
+		"title":		"L'Open data chez les singes bonobo",
+		"subtitle":		"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+		"date":			"12 février 2014",
+		"hour":			"15h14",
+		"text":			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget sem sollicitudin justo facilisis aliquet vel vitae libero. Fusce sit amet mauris ultricies, consequat urna non, tempus tortor. Nunc porttitor pulvinar ex a vestibulum. Suspendisse at sapien eget augue molestie malesuada. Praesent elementum sed dolor eu vehicula. Nullam sollicitudin ultrices mattis. Proin consequat varius urna fringilla feugiat. Nullam elit odio, venenatis ac est et, lacinia tempus massa. Ut laoreet risus vestibulum eros aliquet, vitae tincidunt sapien congue. Ut ullamcorper, arcu ac congue facilisis, nibh leo congue neque, id sodales dui magna imperdiet est. Sed vitae tortor turpis."
+	}
+}
